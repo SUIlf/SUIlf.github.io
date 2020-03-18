@@ -445,7 +445,7 @@ html {
 
 @media (max-width: 575px) {
   #hero::after {
-    left: 40%;
+    left: 50%;
     top: 0;
     width: 200%;
     height: 95%;
