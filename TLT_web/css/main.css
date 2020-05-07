@@ -2947,8 +2947,7 @@ body.search-is-visible {
   }
 
   .nav-wrap-is-visible .header__nav-wrap {
-    opacity: 1;
-    z-index: 1;
+    opacity: 0;
     visibility: visible;
   }
 
