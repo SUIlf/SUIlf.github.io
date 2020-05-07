@@ -2928,7 +2928,7 @@ body.search-is-visible {
     z-index: 99;
     background: #151515;
     opacity: 0;
-    visibility: hidden;
+    /*visibility: hidden;*/
     position: fixed;
     top: 0;
     left: 0;
