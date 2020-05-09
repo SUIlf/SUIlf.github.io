@@ -30,21 +30,39 @@ h6 {
 h1 {
   font-size: 6rem;
   line-height: 5.5rem; }
+@media (max-width: 992px) {
+  h1 {
+  font-size: 5rem;
+  line-height: 4.5rem; } }
 
 h2 {
   font-size: 3.5rem; }
+  @media (max-width: 992px) {
+  h2 {
+  font-size: 3rem; } }
 
 p {
   font-size: 1.1rem;
   text-align: justify;
   text-justify: distribute;
 }
+  @media (max-width: 992px) {
+    p {
+      font-size: 0.9rem;
+      text-align: justify;
+      text-justify: distribute;} }
 
 img {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
+  width:200px;
+  /*height:100%;*/
   /*m-right: 3rem;*/
 }
+  @media (max-width: 992px) {
+    img {
+      padding-top: 0.9rem;
+      padding-bottom: 0.4rem;} }
 
 aa {
   font-size: 1.2rem;
@@ -58,6 +76,9 @@ ab {
   padding-top: 0;
   padding-bottom: 0;
 }
+  @media (max-width: 992px) {
+    ab {
+      font-size: 0.9rem; } }
 
 li {
   font-size: 1.1rem;
@@ -66,6 +87,12 @@ li {
   padding-top: 0.3rem;
 
 }/* 列表字体大小，行间距 */
+  @media (max-width: 992px) {
+    li {
+      font-size: 0.9rem;
+      /*line-height: 1.3rem;*/
+      margin-left: -2rem;
+      padding-top: 0.2rem;} }
 
 lli {
   font-size: 1.1rem;
@@ -73,6 +100,12 @@ lli {
   padding-left: 2rem;
   padding-right: 7rem;
 }/* member页分栏用*/
+  @media (max-width: 992px) {
+    lli {
+      font-size: 1.1rem;
+      line-height: 2rem;
+      padding-left: 2rem;
+      padding-right: 7rem;} }
 
 llli {
   font-size: 1.1rem;
@@ -92,7 +125,12 @@ lii {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   /*letter-spacing: 0.01rem;*/
-  font-size: 1.35rem; } /* 首页姓名下介绍 */
+  font-size: 1.5rem; } /* 首页姓名下介绍 */
+  @media (max-width: 992px) {
+    .subheading {
+    font-weight: 400;
+    /*letter-spacing: 0.01rem;*/
+    font-size: 1.2rem; } } 
 
 .list-social-icons a {
   color: #495057; }
