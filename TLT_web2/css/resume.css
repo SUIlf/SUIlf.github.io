@@ -122,6 +122,9 @@ llli {
   /*padding-left: 2rem;*/
   /*padding-right: 9rem;*/
 }/* access页分栏用*/
+  @media (max-width: 992px) {
+    llli {
+      font-size: 0.9rem; } }
 
 lii {
   font-size: 1.1rem;
