@@ -184,9 +184,9 @@ lii {
             display: block; } }
 
 section.resume-section {
-  border-bottom: 1px solid #26abe2; /* 各页面之间分割线 */
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important; }
+  border-bottom: 1px solid #c3c3c3; /* 各页面之间分割线 */
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
   section.resume-section .resume-item .resume-date {
     min-width: none; }
 
