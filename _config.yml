@@ -32,9 +32,9 @@ collections:
 
 # Site Settings
 locale                   : "en-US"
-title			 : "StARLinG"
+title			 : "Tensor Learn Team"
 title_separator          : "-"
-name                     : "StARLinG Lab"
+name                     : "Tensor Learn Team"
 description              : "StARLinG Lab, an Artificial Intelligence Research Group at the University of Texas at Dallas."
 url                      : "https://starling.utdallas.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -73,7 +73,7 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  hide                   : true
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 
@@ -85,7 +85,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : StARLing_lab
+  username               : Tensor Learn Team
 facebook:
   username               :
   app_id                 :
@@ -107,19 +107,19 @@ analytics:
 
 
 # Site Author
-author: StARLinG Lab
+author: Tensor Learning Team
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github-square"
-      url: https://github.com/starling-lab
+      url: https://github.com/
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/starling_lab
+      url: https://twitter.com/
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube-square"
-      url: https://www.youtube.com/channel/UCtplIvykXStML8nLMak_02A
+      url: https://www.youtube.com/
 
 # Reading Files
 include:
@@ -198,7 +198,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-redirect-from
 
@@ -207,7 +206,6 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
 
 
@@ -285,3 +283,12 @@ defaults:
       toc: true
       sidebar:
         nav: "datasets"
+publication_buttons:
+  pdf:      'fa fa-book'
+  bibtex:   'fa fa-download'
+  code:     'fa fa-code'
+  video:    'fa fa-video-camera'
+  arxiv:    'ai ai-arxiv-square'
+  doi:      'ai ai-doi-square'
+  talk:     'fas fa-chalkboard-teacher'
+  website:  'fa fa-link'

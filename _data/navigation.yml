@@ -1,16 +1,18 @@
 # Main navigation links used on the header of each page.
 
 main:
-  - title: "People"
-    url: /people/
+  - title: "Home"
+    url: /
+  - title: "Team"
+    url: /team/
   - title: "Publications"
     url: /publications/
-  - title: "Projects"
-    url: /projects/
   - title: "Software"
     url: /software/
-  - title: "Datasets"
-    url: /datasets/
+  - title: "Academic activities"
+    url: /Activities/
+  - title: "Open positions"
+    url: /positions/
   - title: "Gallery"
     url: /gallery/
 

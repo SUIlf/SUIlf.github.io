@@ -1,8 +1,8 @@
-<div class="masthead">
-  <div class="masthead__inner-wrap">
+<div class="masthead masthead-fixed-top masthead-fixed-bottom">
+  <div class="masthead__inner-wrap container-fluid">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | absolute_url }}"><img style="max-height: 40px;" src="/assets/images/Logo.png"/></a>
+        <a style="font-size: 18px" class="site-title" href="{{ '/' | absolute_url }}"><img style="max-height: 35px;" src="/assets/images/Logo.png"/> &nbsp;&nbsp;Tensor Learn Team</a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
