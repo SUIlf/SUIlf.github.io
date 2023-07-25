@@ -145,6 +145,7 @@ a {
     </div>
     {% endif %}
   </div>
+</div>
 
   <div style="margin-top:15px;" class="row">
     <div id="gridid" class="col-sm-12 clearfix">
@@ -204,6 +205,7 @@ a {
     </div>
     {% endif %}
   </div>
+</div>
 
   <div style="margin-top:15px;" class="row">
     <div id="gridid" class="col-sm-12 clearfix">
@@ -301,7 +303,6 @@ a {
     <div class="page__footer-copyright" style="padding-left: 30px; padding-right: 30px; color:#808080">© 2023 Tensor Learning Team. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
     </div>
 </div>
-
 
 
 
