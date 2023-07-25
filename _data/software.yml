@@ -128,7 +128,7 @@
       icon: bibtex
 
 - year: 2019
-  title: 'Deep multimodal multilinear fusion with high-order polynomial pooling (NeurIPS 2019)'
+  title: 'Tensor ring decomposition with rank minimization on latent space: An efficient approach for tensor completion (AAAI 2019)'
   links:
     - type: github
       display: Github
