@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 3.9"
+# gem "jekyll", "~> 3.9"
 gem "minimal-mistakes-jekyll"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -8,7 +8,6 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
   gem "jekyll-redirect-from"
 end
 
