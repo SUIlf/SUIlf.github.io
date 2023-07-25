@@ -71,6 +71,16 @@ a {
     color: #158CBA;
 }
 
+.ai {
+    font-family: 'Academicons';
+    font-weight: 400;
+    /* display: inline-block; */
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
 #gridid i {
     font-size: 16px;
     font-style: italic;
@@ -95,10 +105,10 @@ li {
 	 			<span>{{ paper.authors }}</span><br>
 	 			<i>{{ paper.venue }}</i><br>
 	  		{% if paper.bibtex.size > 0 %}
-	    	<button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;&nbsp;
+	    	<button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
 	  		{% endif %}
 	  		{% for link in paper.links %}
-	    	<a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
+	    	<a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
 	  		{% endfor %}
 	  		{% if paper.note.size > 0 %}
 	    	<br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
@@ -122,10 +132,10 @@ li {
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
-        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;&nbsp;
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
         {% endif %}
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
         {% endfor %}
         {% if paper.note.size > 0 %}
         <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
@@ -149,10 +159,10 @@ li {
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
-        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;&nbsp;
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
         {% endif %}
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
         {% endfor %}
         {% if paper.note.size > 0 %}
         <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
@@ -176,10 +186,10 @@ li {
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
-        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;&nbsp;
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
         {% endif %}
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
         {% endfor %}
         {% if paper.note.size > 0 %}
         <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
@@ -203,10 +213,10 @@ li {
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
-        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;&nbsp;
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
         {% endif %}
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
         {% endfor %}
         {% if paper.note.size > 0 %}
         <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
@@ -229,10 +239,10 @@ li {
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
-        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;&nbsp;
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
         {% endif %}
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
         {% endfor %}
         {% if paper.note.size > 0 %}
         <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
@@ -255,10 +265,10 @@ li {
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
-        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;&nbsp;
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
         {% endif %}
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
         {% endfor %}
         {% if paper.note.size > 0 %}
         <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
@@ -281,10 +291,10 @@ li {
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
-        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;&nbsp;
+        <button class="paper-btn" onclick="download_file('ref.bib', '{{ paper.bibtex }}')"><i style="font-style:normal" class="{{ site.publication_buttons['bibtex'] }}"></i>&nbsp;BibTeX</button> &nbsp;
         {% endif %}
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.type] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
         {% endfor %}
         {% if paper.note.size > 0 %}
         <br><span style="color:gray; font-size:8px;">{{ paper.note }}</span>
