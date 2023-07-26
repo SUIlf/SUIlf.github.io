@@ -23,68 +23,15 @@
   #     display: DOI
   #     url: https://doi.org/10.1109/hri53351.2022.9889650 
 
-- year: 2023
-  type: conference
-  title: 'Active Reward Learning from Online Preferences'
-  authors: Vivek Myers, Erdem Bıyık, Dorsa Sadigh
-  venue: International Conference on Robotics and Automation (ICRA), May 2023
-  picture: /images/publications/myers2023active.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/myers2023active.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2302.13507
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/onlineactivepreferences
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/online-active-querying
-  bibtex: '@inproceedings{myers2023active,
-  title={Active Reward Learning from Online Preferences},
-  author={Myers, Vivek and Biyik, Erdem and Sadigh, Dorsa},
-  booktitle={International Conference on Robotics and Automation (ICRA)},
-  year={2023},
-  month=may
-}'
-
-- year: 2023
-  type: conference
-  title: 'ViSaRL: Visual Reinforcement Learning Guided by Human Saliency'
-  authors: Anthony Liang, Jesse Thomason, Erdem Bıyık
-  venue: Pretraining for Robotics Workshop at ICRA, May 2023
-  picture: /images/publications/liang2023visarl.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/liang2023visarl.pdf
-    - type: website
-      display: Website
-      url: https://sites.google.com/view/visarl
-    - type: code
-      display: Code
-      url: https://github.com/corl-visarl/visarl
-  specialnote: 'Oral presentation.'
-  bibtex: '@inproceedings{liang2023visarl,
-  title={ViSaRL: Visual Reinforcement Learning Guided by Human Saliency},
-  author={Liang, Anthony and Thomason, Jesse and Biyik, Erdem},
-  booktitle={Pretraining for Robotics Workshop at ICRA},
-  year={2023},
-  month=may
-}'
-
+# journal conference
+# ----------------------------------------------------------------------------
 - year: 2022
   type: conference
   title: 'Spd domain-specific batch normalization to crack interpretable unsupervised domain adaptation in eeg'
   authors: R. J. Kobler, J.-i. Hirayama, Q. Zhao, and M. Kawanabe.
   venue: Conference on Neural Information Processing Systems (NeurIPS), 2022
-  picture: /images/publications/srivastava2022assistive.png
+  picture: 
   links:
-    - type: pdf
-      display: PDF
-      url: https://proceedings.neurips.cc/paper_files/paper/2022/file/28ef7ee7cd3e03093acc39e1272411b7-Paper-Conference.pdf
     - type: arxiv
       display: arXiv
       url: https://arxiv.org/abs/2206.01323
@@ -97,549 +44,416 @@
   year={2022}
 }'
 
+# ----------------------------------------------------------------------------
 - year: 2022
   type: conference
-  title: 'How do People Incorporate Advice from Artificial Agents when Making Physical Judgments?'
-  authors: Erik Brockbank*, Haoliang Wang*, Justin Yang, Suvir Mirchandani, Erdem Bıyık, Dorsa Sadigh, Judith Fan
-  venue: Cognitive Science Society Conference (CogSci), July 2022
-  picture: /images/publications/brockbank2022people.png
-  note: '* denotes equal contribution.'
+  title: 'Permutation search of tensor network structures via local sampling'
+  authors: C. Li, J. Zeng, Z. Tao, and Q. Zhao.
+  venue: International Conference on Machine Learning (ICML), 2022
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2206.06597
+  bibtex: '@inproceedings{li2022permutation,
+  title={Permutation search of tensor network structures via local sampling},
+  author={Li, Chao and Zeng, Junhua and Tao, Zerui and Zhao, Qibin},
+  booktitle={International Conference on Machine Learning},
+  pages={13106--13124},
+  year={2022},
+  organization={PMLR}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2022
+  type: conference
+  title: 'Mmt: Multi-way multi-modal transformer for multimodal learning'
+  authors: J. Tang, K. Li, M. Hou, X. jin, W. Kong, Y. Ding, and Q. Zhao.
+  venue: International Joint Conference on Artificial Intelligence (IJCAI), 2022
+  picture: 
   links:
     - type: pdf
       display: PDF
-      url: /pdfs/publications/brockbank2022people.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2205.11613
-    - type: talk
-      display: Talk
-      url: https://youtu.be/KrD-OaZ0pYA
-  specialnote: 'Oral presentation.'
-  bibtex: '@inproceedings{brockbank2022people,
-  title={How do People Incorporate Advice from Artificial Agents when Making Physical Judgments?},
-  author={Brockbank, Erik and Wang, Haoliang and Yang, Justin and Mirchandani, Suvir and Biyik, Erdem and Sadigh, Dorsa and Fan, Judith},
-  booktitle={Cognitive Science Society Conference (CogSci)},
-  year={2022},
-  month=jul
+      url: https://www.ijcai.org/proceedings/2022/0480.pdf
+    - type: website
+      display: Website
+      url: https://www.ijcai.org/proceedings/2022/480
+  bibtex: '@inproceedings{tang2022mmt,
+  title={MMT: Multi-Way Multi-Modal Transformer for Multimodal Learning},
+  author={Tang, Jiajia and Li, Kang and Hou, Ming and Jin, Xuanyu and Kong, Wanzeng and Ding, Yu and Zhao, Qibin},
+  booktitle={Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22, LD Raedt, Ed. International Joint Conferences on Artificial Intelligence Organization},
+  volume={7},
+  pages={3458--3465},
+  year={2022}
 }'
 
+# ----------------------------------------------------------------------------
+- year: 2022
+  type: conference
+  title: 'Fast algorithm for low-rank tensor completion in delay-embedded space'
+  authors: R. Yamamoto, H. Hontani, A. Imakura, and T. Yokota.
+  venue: Conference on Computer Vision and Pattern Recognition (CVPR), 2022
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/9880157
+  bibtex: '@inproceedings{yamamoto2022fast,
+  title={Fast algorithm for low-rank tensor completion in delay-embedded space},
+  author={Yamamoto, Ryuki and Hontani, Hidekata and Imakura, Akira and Yokota, Tatsuya},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={2058--2066},
+  year={2022}
+}'
+
+# ----------------------------------------------------------------------------
 - year: 2022
   type: journal
-  title: 'Learning Preferences For Interactive Autonomy'
-  authors: Erdem Bıyık
-  venue: EE Department, Stanford University, May 2022
-  picture: /images/publications/biyik2022learning.png
-  note: Ph.D. Dissertation
+  title: 'Non-local meets global: An iterative paradigm for hyperspectral image restoration'
+  authors: W. He, Q. Yao, C. Li, N. Yokoya, Q. Zhao, H. Zhang, and L. Zhang.
+  venue: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+  picture: 
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2022learning.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2210.10899
-  bibtex: '@phdthesis{biyik2022learning,
-  title={Learning Preferences For Interactive Autonomy},
-  author={Biyik, Erdem},
-  school = {EE Department, Stanford University},
-  year={2022},
-  month=may
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/9208755
+  bibtex: '@article{he2020non,
+  title={Non-local meets global: An iterative paradigm for hyperspectral image restoration},
+  author={He, Wei and Yao, Quanming and Li, Chao and Yokoya, Naoto and Zhao, Qibin and Zhang, Hongyan and Zhang, Liangpei},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={44},
+  number={4},
+  pages={2089--2107},
+  year={2020},
+  publisher={IEEE}
 }'
 
+# ----------------------------------------------------------------------------
 - year: 2022
   type: journal
-  title: 'Leveraging Smooth Attention Prior for Multi-Agent Trajectory Prediction'
-  authors: Zhangjie Cao, Erdem Bıyık, Guy Rosman, Dorsa Sadigh
-  venue: International Conference on Robotics and Automation (ICRA), May 2022
-  picture: /images/publications/cao2022leveraging.png
+  title: 'Toward understanding convolutional neural networks from volterra convolution perspective'
+  authors: T. Li, G. Zhou, Y. Qiu, and Q. Zhao.
+  venue: Journal of Machine Learning Research (JMLR)
+  picture: 
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/cao2022leveraging.pdf
     - type: arxiv
       display: arXiv
-      url: https://arxiv.org/abs/2203.04421
+      url: https://arxiv.org/abs/2110.09902
     - type: website
       display: Website
-      url: https://sites.google.com/view/smoothness-attention
-    - type: talk
-      display: Talk
-      url: https://youtu.be/tKMcWWuPPVs
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICRA46639.2022.9811718
-  bibtex: '@inproceedings{cao2022leveraging,
-  title={Leveraging Smooth Attention Prior for Multi-Agent Trajectory Prediction},
-  author={Cao, Zhangjie and Biyik, Erdem and Rosman, Guy and Sadigh, Dorsa},
-  booktitle={International Conference on Robotics and Automation (ICRA)},
+      url: https://ieeexplore.ieee.org/document/9208755
+  bibtex: '@article{li2022toward,
+  title={Toward understanding convolutional neural networks from volterra convolution perspective},
+  author={Li, Tenghui and Zhou, Guoxu and Qiu, Yuning and Zhao, Qibin},
+  journal={The Journal of Machine Learning Research},
+  volume={23},
+  number={1},
+  pages={14032--14081},
   year={2022},
-  month=may,
-  doi={10.1109/ICRA46639.2022.9811718}
+  publisher={JMLRORG}
 }'
 
-- year: 2021
-  type: conference
-  title: 'Learning Multimodal Rewards from Rankings'
-  authors: Vivek Myers, Erdem Bıyık, Nima Anari, Dorsa Sadigh
-  venue: Proceedings of the 5th Conference on Robot Learning (CoRL), November 2021
-  picture: /images/publications/myers2021learning.png
+# ----------------------------------------------------------------------------
+- year: 2022
+  type: journal
+  title: 'Imbalanced low-rank tensor completion via latent matrix factorization'
+  authors: Y. Qiu, G. Zhou, J. Zeng, Q. Zhao, and S. Xie.
+  venue: Neural Networks
+  picture: 
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/myers2021learning.pdf
-    - type: arxiv
-      display: arXiv
-      url: http://arxiv.org/abs/2109.12750
     - type: website
       display: Website
-      url: https://sites.google.com/view/multimodal-reward-learning/
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/multimodal-rewards-from-rankings
-    - type: video
-      display: Video
-      url: https://youtu.be/Jj9Qz2-bl7w
-  specialnote: 'Oral presentation.'
-  bibtex: '@inproceedings{myers2021learning,
-  title={Learning Multimodal Rewards from Rankings},
-  author={Myers, Vivek and Biyik, Erdem and Anari, Nima and Sadigh, Dorsa},
-  booktitle={Proceedings of the 5th Conference on Robot Learning (CoRL)},
-  year={2021},
-  month=nov
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0893608022003239
+  bibtex: '@article{qiu2022imbalanced,
+  title={Imbalanced low-rank tensor completion via latent matrix factorization},
+  author={Qiu, Yuning and Zhou, Guoxu and Zeng, Junhua and Zhao, Qibin and Xie, Shengli},
+  journal={Neural Networks},
+  volume={155},
+  pages={369--382},
+  year={2022},
+  publisher={Elsevier}
 }'
 
-- year: 2021
-  type: conference
-  title: 'Learning Reward Functions from Scale Feedback'
-  authors: Nils Wilde*, Erdem Bıyık*, Dorsa Sadigh, Stephen L. Smith
-  venue: Proceedings of the 5th Conference on Robot Learning (CoRL), November 2021
-  picture: /images/publications/wilde2021learning.png
-  note: '* denotes equal contribution.'
+# ----------------------------------------------------------------------------
+- year: 2022
+  type: journal
+  title: 'Noisy tensor completion via low-rank tensor ring'
+  authors: Y. Qiu, G. Zhou, Q. Zhao, and S. Xie.
+  venue: IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+  picture: 
   links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/wilde2021learning.pdf
     - type: arxiv
       display: arXiv
-      url: https://arxiv.org/abs/2110.00284
+      url: https://arxiv.org/abs/2203.08857
     - type: website
       display: Website
-      url: https://sites.google.com/view/reward-learning-scale-feedback
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/reward-learning-scale-feedback
-    - type: video
-      display: Video
-      url: https://youtu.be/5dJ7bGCnjOM
-  bibtex: '@inproceedings{wilde2021learning,
-  title={Learning Reward Functions from Scale Feedback},
-  author={Wilde, Nils and Biyik, Erdem and Sadigh, Dorsa and Smith, Stephen L.},
-  booktitle={Proceedings of the 5th Conference on Robot Learning (CoRL)},
-  year={2021},
-  month=nov
+      url: https://ieeexplore.ieee.org/abstract/document/9800181
+  bibtex: '@article{qiu2022noisy,
+  title={Noisy tensor completion via low-rank tensor ring},
+  author={Qiu, Yuning and Zhou, Guoxu and Zhao, Qibin and Xie, Shengli},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022},
+  publisher={IEEE}
 }'
 
+# ----------------------------------------------------------------------------
+- year: 2022
+  type: journal
+  title: 'Manifold modeling in embedded space: An interpretable alternative to deep image prior'
+  authors: T. Yokota, H. Hontani, Q. Zhao, and A. Cichocki.
+  venue: IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1908.02995
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/9281370
+  bibtex: '@article{yokota2020manifold,
+  title={Manifold modeling in embedded space: An interpretable alternative to deep image prior},
+  author={Yokota, Tatsuya and Hontani, Hidekata and Zhao, Qibin and Cichocki, Andrzej},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  volume={33},
+  number={3},
+  pages={1022--1036},
+  year={2020},
+  publisher={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
 - year: 2021
   type: conference
-  title: 'Learning Reward Functions from Diverse Sources of Human Feedback: Optimally Integrating Demonstrations and Preferences'
-  authors: Erdem Bıyık, Dylan P. Losey, Malayandi Palan, Nicholas C. Landolfi, Gleb Shevchuk, Dorsa Sadigh
-  venue: The International Journal of Robotics Research (IJRR), 2021
-  picture: /images/publications/biyik2021learning.jpg
+  title: 'Bayesian Latent Factor Model for Higher-order Data'
+  authors: Z. Tao, X. Zhao, T. Tanaka, Q. Zhao.
+  venue: Asian Conference on Machine Learning (ACML), 2021
+  picture: 
   links:
     - type: pdf
       display: PDF
-      url: /pdfs/publications/biyik2021learning.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2006.14091
-    - type: video
-      display: Video
-      url: https://youtu.be/JIs43cO_g18
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1177/02783649211041652
-  bibtex: '@article{biyik2021learning,
-  title={Learning Reward Functions from Diverse Sources of Human Feedback: Optimally Integrating Demonstrations and Preferences},
-  author={Biyik, Erdem and Losey, Dylan P. and Palan, Malayandi and Landolfi, Nicholas C. and Shevchuk, Gleb and Sadigh, Dorsa},
-  journal={The International Journal of Robotics Research (IJRR)},
+      url: https://proceedings.mlr.press/v157/tao21a/tao21a.pdf
+    - type: website
+      display: Website
+      url: https://proceedings.mlr.press/v157/tao21a
+    - type: code
+      display: Code
+      url: https://github.com/taozerui/TR_latent_factor
+  bibtex: '@inproceedings{tao2021bayesian,
+  title={Bayesian latent factor model for higher-order data},
+  author={Tao, Zerui and Zhao, Xuyang and Tanaka, Toshihisa and Zhao, Qibin},
+  booktitle={Asian Conference on Machine Learning},
+  pages={1285--1300},
   year={2021},
-  doi={10.1177/02783649211041652}
+  organization={PMLR}
 }'
 
-- year: 2020
+# ----------------------------------------------------------------------------
+- year: 2021
   type: conference
-  title: 'Active Preference-Based Gaussian Process Regression for Reward Learning'
-  authors: Erdem Bıyık*, Nicolas Huynh*, Mykel J. Kochenderfer, Dorsa Sadigh
-  venue: 'Proceedings of Robotics: Science and Systems (RSS), July 2020'
-  picture: /images/publications/biyik2020active.png
-  note: '* denotes equal contribution.'
+  title: 'Learning From Incomplete Features by Simultaneous Training of Neural Networks and Sparse Coding'
+  authors: C. F. Caiafa, Z. Wang, J. Sole-Casals, Q. Zhao.
+  venue: Workshop on Conference on Computer Vision and Pattern Recognition (CVPR), 2021
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2011.14047v2
+    - type: website
+      display: Website
+      url: https://openaccess.thecvf.com/content/CVPR2021W/LLID/html/Caiafa_Learning_From_Incomplete_Features_by_Simultaneous_Training_of_Neural_Networks_CVPRW_2021_paper.html
+    - type: code
+      display: Code
+      url: https://github.com/ccaiafa/SimultCodClass
+    - type: video
+      display: Video
+      url: https://youtu.be/fzKg5soG8D0
+  bibtex: '@inproceedings{caiafa2021learning,
+  title={Learning from incomplete features by simultaneous training of neural networks and sparse coding},
+  author={Caiafa, Cesar F and Wang, Ziyao and Sole-Casals, Jordi and Zhao, Qibin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2621--2630},
+  year={2021}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2021
+  type: conference
+  title: 'On the Memory Mechanism of Tensor-Power Recurrent Models'
+  authors: H. Qiu, C. Li, Y. Weng, Z. Sun, X. He, Q. Zhao.
+  venue: International Conference on Artificial Intelligence and Statistics (AISTATS), 2021
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/2103.01521
+    - type: website
+      display: Website
+      url: https://proceedings.mlr.press/v130/qiu21a.html
+    - type: code
+      display: Code
+      url: https://github.com/minogame/AISTATS_2021
+  bibtex: '@inproceedings{qiu2021memory,
+  title={On the memory mechanism of tensor-power recurrent models},
+  author={Qiu, Hejia and Li, Chao and Weng, Ying and Sun, Zhun and He, Xingyu and Zhao, Qibin},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={3682--3690},
+  year={2021},
+  organization={PMLR}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2021
+  type: conference
+  title: 'Fully-Connected Tensor Network Decomposition and Its Application to Higher-Order Tensor Completion'
+  authors: Y. Zheng, T. Huang, X. Zhao, Q. Zhao, T. Jiang.
+  venue: AAAI Conference on Artificial Intelligence (AAAI), 2021
+  picture: 
   links:
     - type: pdf
       display: PDF
-      url: /pdfs/publications/biyik2020active.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2005.02575
+      url: /assets/publications/AAAI2021_Yu_Bang_Zheng/AAAI2021_FCTN_Decomposition_ybz.pdf
+    - type: material
+      display: Material
+      url: /assets/publications/AAAI2021_Yu_Bang_Zheng/Supplementary_Materia_FCTN_decomposition.pdf
+    - type: website
+      display: Website
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/17321
+    - type: slide
+      display: Slide
+      url: /assets/publications/AAAI2021_Yu_Bang_Zheng/Slide_FCTN_decomposition.pdf
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/active-preference-based-gpr
-    - type: video
-      display: Video
-      url: https://youtu.be/SLSO2lBj9Mw
-    - type: talk
-      display: Talk
-      url: https://youtu.be/90_tjGtP26s
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.15607/rss.2020.xvi.041
-  bibtex: '@inproceedings{biyik2020active,
-  title={Active Preference-Based Gaussian Process Regression for Reward Learning},
-  author={Biyik, Erdem and Huynh, Nicolas and Kochenderfer, Mykel J. and Sadigh, Dorsa},
-  booktitle={Proceedings of Robotics: Science and Systems (RSS)},
+      url: /assets/publications/AAAI2021_Yu_Bang_Zheng/code_FCTN_Decomposition.zip
+  bibtex: '@inproceedings{zheng2021fully,
+  title={Fully-connected tensor network decomposition and its application to higher-order tensor completion},
+  author={Zheng, Yu-Bang and Huang, Ting-Zhu and Zhao, Xi-Le and Zhao, Qibin and Jiang, Tai-Xiang},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={35},
+  number={12},
+  pages={11071--11078},
+  year={2021}
+}'
+
+
+# ----------------------------------------------------------------------------
+- year: 2020
+  type: conference
+  title: 'TPFN: Applying Outer Product along Time to Multimodal Sentiment Analysis Fusion on Incomplete Data'
+  authors: B. Li, C. Li, F. Duan, N. Zheng, Q. Zhao.
+  venue: European Conference on Computer Vision (ECCV), 2020
+  picture: 
+  links:
+    - type: pdf
+      display: PDF
+      url: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690426.pdf
+    - type: website
+      display: Website
+      url: https://link.springer.com/chapter/10.1007/978-3-030-58586-0_26
+    - type: slide
+      display: Slide
+      url: /assets/publications/ECCV2020_LiChao/ECCV2020_slides.pdf
+    - type: code
+      display: Code
+      url: /assets/publications/ECCV2020_LiChao/TPFN.zip
+  bibtex: '@inproceedings{li2020tpfn,
+  title={Tpfn: Applying outer product along time to multimodal sentiment analysis fusion on incomplete data},
+  author={Li, Binghua and Li, Chao and Duan, Feng and Zheng, Ning and Zhao, Qibin},
+  booktitle={Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XXIV 16},
+  pages={431--447},
   year={2020},
-  month=jul,
-  doi={10.15607/rss.2020.xvi.041}
+  organization={Springer}
 }'
 
+
+# ----------------------------------------------------------------------------
 - year: 2020
   type: conference
-  title: 'Reinforcement Learning based Control of Imitative Policies for Near-Accident Driving'
-  authors: Zhangjie Cao*, Erdem Bıyık*, Woodrow Z. Wang, Allan Raventos, Adrien Gaidon, Guy Rosman, Dorsa Sadigh
-  venue: 'Proceedings of Robotics: Science and Systems (RSS), July 2020'
-  picture: /images/publications/cao2020reinforcement.png
-  note: '* denotes equal contribution.'
+  title: 'Evolutionary Topology Search for Tensor Network Decomposition'
+  authors: C. Li, Z. Sun.
+  venue: International Conference on Machine Learning (ICML), 2020
+  picture: 
   links:
     - type: pdf
       display: PDF
-      url: /pdfs/publications/cao2020reinforcement.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2007.00178
-    - type: video
-      display: Video
-      url: https://youtu.be/CY24zlC_HdI
-    - type: talk
-      display: Talk
-      url: https://youtu.be/envT7b5YRts
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.15607/rss.2020.xvi.039
-  bibtex: '@inproceedings{cao2020reinforcement,
-  title={Reinforcement Learning based Control of Imitative Policies for Near-Accident Driving},
-  author={Cao, Zhangjie and Biyik, Erdem and Wang, Woodrow Z. and Raventos, Allan and Gaidon, Adrien and Rosman, Guy and Sadigh, Dorsa},
-  booktitle={Proceedings of Robotics: Science and Systems (RSS)},
+      url: http://proceedings.mlr.press/v119/li20l/li20l.pdf
+    - type: website
+      display: Website
+      url: http://proceedings.mlr.press/v119/li20l.html
+    - type: slide
+      display: Slide
+      url: /assets/publications/ICML2020_LiChao/TNGA_long.pdf
+    - type: code
+      display: Code
+      url: https://github.com/minogame/icml2020-TNGA
+  bibtex: '@inproceedings{li2020evolutionary,
+  title={Evolutionary topology search for tensor network decomposition},
+  author={Li, Chao and Sun, Zhun},
+  booktitle={International Conference on Machine Learning},
+  pages={5947--5957},
   year={2020},
-  month=jul,
-  doi={10.15607/rss.2020.xvi.039}
+  organization={PMLR}
 }'
 
+# ----------------------------------------------------------------------------
 - year: 2020
   type: conference
-  title: 'Emergent Correlated Equilibrium through Synchronized Exploration'
-  authors: Mark Beliaev*, Woodrow Z. Wang*, Daniel A. Lazar, Erdem Bıyık, Dorsa Sadigh, Ramtin Pedarsani
-  venue: 'RSS 2020 Workshop on Emergent Behaviors in Human-Robot Systems, July 2020'
-  picture:
-  note:
+  title: 'Beyond unfolding: Exact recovery of latent convex tensor decomposition under reshuffling'
+  authors: C. Li, M. E. Khan, Z. Sun, G. Niu, B. Han, S. Xie, Q. Zhao.
+  venue: AAAI Conference on Artificial Intelligence (AAAI), 2020
+  picture: 
   links:
     - type: pdf
       display: PDF
-      url: /pdfs/publications/beliaev2020emergent.pdf
-    - type: talk
-      display: Talk
-      url: https://youtu.be/t1dsHHaeHDQ
-  bibtex: '@inproceedings{beliaev2020emergent,
-  title = {Emergent Correlated Equilibrium through Synchronized Exploration},
-  author = {Beliaev, Mark and Wang, Woodrow Z., and Lazar, Daniel A. and Biyik, Erdem and Sadigh, Dorsa and Pedarsani, Ramtin},
-  booktitle = {RSS 2020 Workshop on Emergent Behaviors in Human-Robot Systems},
-  year = {2020},
-  month = jul
+      url: /assets/publications/AAAI2020_LiChao/AAAI_2020_LiChao_paper.pdf
+    - type: website
+      display: Website
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/5890
+    - type: slide
+      display: Slide
+      url: /assets/publications/AAAI2020_LiChao/AAAI_2020_LiChao_poster.pdf
+    - type: code
+      display: Code
+      url: /assets/publications/AAAI2020_LiChao/AAAI_2020_LiChao_code.zip
+  bibtex: '@inproceedings{li2020beyond,
+  title={Beyond unfolding: Exact recovery of latent convex tensor decomposition under reshuffling},
+  author={Li, Chao and Khan, Mohammad Emtiyaz and Sun, Zhun and Niu, Gang and Han, Bo and Xie, Shengli and Zhao, Qibin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={34},
+  number={04},
+  pages={4602--4609},
+  year={2020}
 }'
 
+# ----------------------------------------------------------------------------
 - year: 2020
   type: conference
-  title: "When Humans Aren't Optimal: Robots that Collaborate with Risk-Aware Humans"
-  authors: Minae Kwon, Erdem Bıyık, Aditi Talati, Karan Bhasin, Dylan P. Losey, Dorsa Sadigh
-  venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI), March 2020
-  picture: /images/publications/kwon2020when.png
-  note: 'Also presented at Cooperative AI NeurIPS Workshop 2021, December 2021 (<a href="/pdfs/publications/kwon2021when_workshop.pdf">PDF</a>).'
-  specialnote: Honorable mention award.
+  title: 'Robust tensor decomposition via orientation invariant tubal nuclear norms'
+  authors: A. Wang, C. Li, Z. Jin, Q. Zhao.
+  venue: AAAI Conference on Artificial Intelligence (AAAI), 2020
+  picture: 
   links:
     - type: pdf
       display: PDF
-      url: /pdfs/publications/kwon2020when.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/2001.04377
-    - type: video
-      display: Video
-      url: https://youtu.be/PnBNI1ms0iw
-    - type: talk
-      display: Talk
-      url: https://youtu.be/_tlSyFvS1iE
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1145/3319502.3374832
-  bibtex: "@inproceedings{kwon2020when,
-  title={When Humans Aren\\'t Optimal: Robots that Collaborate with Risk-Aware Humans},
-  author={Kwon, Minae and Biyik, Erdem and Talati, Aditi and Bhasin, Karan and Losey, Dylan P. and Sadigh, Dorsa},
-  booktitle={ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
-  year={2020},
-  month=mar,
-  doi={10.1145/3319502.3374832}
-}"
-
-- year: 2019
-  type: conference
-  title: 'Asking Easy Questions: A User-Friendly Approach to Active Reward Learning'
-  authors: Erdem Bıyık, Malayandi Palan, Nicholas C. Landolfi, Dylan P. Losey, Dorsa Sadigh
-  venue: Proceedings of the 3rd Conference on Robot Learning (CoRL), October 2019
-  picture: /images/publications/biyik2019asking.png
-  note:
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2019asking.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1910.04365
+      url: /assets/publications/OITNN_WangAndong/Article4OITNN.pdf
+    - type: material
+      display: Material
+      url: /assets/publications/OITNN_WangAndong/Supp4OITNN.pdf
+    - type: website
+      display: Website
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/6074
+    - type: slide
+      display: Slide
+      url: /assets/publications/OITNN_WangAndong/Slide4OITNN.pdf
     - type: code
       display: Code
-      url: https://github.com/Stanford-ILIAD/easy-active-learning
-    - type: video
-      display: Video
-      url: https://youtu.be/JIs43cO_g18
-    - type: talk
-      display: Talk
-      url: https://youtu.be/1hbJvz9a6Ns
-  bibtex: '@inproceedings{biyik2019asking,
-  title={Asking Easy Questions: A User-Friendly Approach to Active Reward Learning},
-  author={Biyik, Erdem and Palan, Malayandi and Landolfi, Nicholas C. and Losey, Dylan P. and Sadigh, Dorsa},
-  booktitle={Proceedings of the 3rd Conference on Robot Learning (CoRL)},
-  year={2019},
-  month=oct
-}'
-
-- year: 2019
-  type: conference
-  title: 'Efficient and Safe Exploration in Deterministic Markov Decision Processes with Unknown Transition Models'
-  authors: Erdem Bıyık*, Jonathan Margoliash*, Shahrouz R. Alimo, Dorsa Sadigh
-  venue: Proceedings of the American Control Conference (ACC), July 2019
-  picture: /images/publications/biyik2019efficient.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2019efficient.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1904.01068
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.23919/ACC.2019.8815276
-  bibtex: '@inproceedings{biyik2019efficient,
-  title={Efficient and Safe Exploration in Deterministic Markov Decision Processes with Unknown Transition Models},
-  author={Biyik, Erdem and Margoliash, Jonathan and Alimo, Shahrouz R. and Sadigh, Dorsa},
-  booktitle={Proceedings of the American Control Conference (ACC)},
-  year={2019},
-  month=jul,
-  doi = {10.23919/ACC.2019.8815276}
-}'
-
-- year: 2019
-  type: conference
-  title: 'Batch Active Learning Using Determinantal Point Processes'
-  authors: Erdem Bıyık, Kenneth Wang, Nima Anari, Dorsa Sadigh
-  venue: arXiv preprint, June 2019
-  picture: /images/publications/biyik2019batch.png
-  note:
-  links:
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1906.07975
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/DPP-Batch-Active-Learning
-  bibtex: '@article{biyik2019batch,
-  title={Batch Active Learning Using Determinantal Point Processes},
-  author={Biyik, Erdem and Wang, Kenneth and Anari, Nima and Sadigh, Dorsa},
-  journal={arXiv preprint arXiv:1906.07975},
-  year={2019}
-}'
-
-- year: 2018
-  type: conference
-  title: 'Altruistic Autonomy: Beating Congestion on Shared Roads'
-  authors: 'Erdem Bıyık*, Daniel A. Lazar*, Ramtin Pedarsani, Dorsa Sadigh'
-  venue: Proceedings of the 13th International Workshop on Algorithmic Foundations of Robotics (WAFR), December 2018
-  picture: /images/publications/biyik2018altruistic.png
-  note: '* denotes equal contribution.'
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2018altruistic.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1810.11978
-    - type: video
-      display: Video
-      url: https://youtu.be/Hy2S6zbL6Z0
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1007/978-3-030-44051-0_51
-  bibtex: '@inproceedings{biyik2018altruistic,
-  title={Altruistic Autonomy: Beating Congestion on Shared Roads},
-  author={Biyik, Erdem and Lazar, Daniel A and Pedarsani, Ramtin and Sadigh, Dorsa},
-  booktitle={Workshop on Algorithmic Foundations of Robotics (WAFR)},
-  year={2018},
-  month=dec,
-  doi={10.1007/978-3-030-44051-0\_51}
-}'
-
-- year: 2018
-  type: conference
-  title: Batch Active Preference-Based Learning of Reward Functions
-  authors: Erdem Bıyık, Dorsa Sadigh
-  venue: Proceedings of the 2nd Conference on Robot Learning (CoRL), October 2018
-  picture: /images/publications/biyik2018batch.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/biyik2018batch.pdf
-    - type: arxiv
-      display: arXiv
-      url: https://arxiv.org/abs/1810.04303
-    - type: code
-      display: Code
-      url: https://github.com/Stanford-ILIAD/batch-active-preference-based-learning
-    - type: video
-      display: Video 1
-      url: https://youtu.be/MaswyWRep5g
-    - type: video
-      display: Video 2
-      url: https://youtu.be/cQ7vvUg9rU4
-    - type: talk
-      display: Talk
-      url: https://youtu.be/j5gZ9JEjJlg
-  specialnote: 'Oral presentation.'
-  bibtex: '@inproceedings{biyik2018batch,
-  title={Batch Active Preference-Based Learning of Reward Functions},
-  author={Biyik, Erdem and Sadigh, Dorsa},
-  booktitle={Proceedings of the 2nd Conference on Robot Learning (CoRL)},
-  year={2018},
-  pages={519--528},
-  volume={87},
-  series={Proceedings of Machine Learning Research},
-  publisher={PMLR},
-  month=oct
-}'
-
-- year: 2018
-  type: conference
-  title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
-  authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
-  venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017
-  picture: /images/publications/baykara2017real.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/baykara2017real.pdf
-    - type: video
-      display: Video
-      url: https://youtu.be/8U_mKmUoXV8
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICTAI.2017.00145
-  note: '* denotes equal contribution.'
-  bibtex: '@inproceedings{baykara2017real,
-  title={Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos},
-  author={Baykara, Huseyin C. and Biyik, Erdem and Gul, Gamze and Onural, Deniz and Ozturk, Ahmet S. and Yildiz, Ilkay},
-  booktitle={2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI)},
-  pages={945--950},
-  year={2017},
-  organization={IEEE},
-  month=nov,
-  doi={10.1109/ICTAI.2017.00145}
-}'
-
-- year: 2017
-  type: conference
-  title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
-  authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
-  venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017
-  picture: /images/publications/baykara2017real.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/baykara2017real.pdf
-    - type: video
-      display: Video
-      url: https://youtu.be/8U_mKmUoXV8
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICTAI.2017.00145
-  note: '* denotes equal contribution.'
-  bibtex: '@inproceedings{baykara2017real,
-  title={Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos},
-  author={Baykara, Huseyin C. and Biyik, Erdem and Gul, Gamze and Onural, Deniz and Ozturk, Ahmet S. and Yildiz, Ilkay},
-  booktitle={2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI)},
-  pages={945--950},
-  year={2017},
-  organization={IEEE},
-  month=nov,
-  doi={10.1109/ICTAI.2017.00145}
-}'
-
-- year: 2017
-  type: conference
-  title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
-  authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
-  venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017
-  picture: /images/publications/baykara2017real.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/baykara2017real.pdf
-    - type: video
-      display: Video
-      url: https://youtu.be/8U_mKmUoXV8
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICTAI.2017.00145
-  note: '* denotes equal contribution.'
-  bibtex: '@inproceedings{baykara2017real,
-  title={Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos},
-  author={Baykara, Huseyin C. and Biyik, Erdem and Gul, Gamze and Onural, Deniz and Ozturk, Ahmet S. and Yildiz, Ilkay},
-  booktitle={2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI)},
-  pages={945--950},
-  year={2017},
-  organization={IEEE},
-  month=nov,
-  doi={10.1109/ICTAI.2017.00145}
-}'
-
-- year: 2016
-  type: conference
-  title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
-  authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
-  venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017
-  picture: /images/publications/baykara2017real.png
-  links:
-    - type: pdf
-      display: PDF
-      url: /pdfs/publications/baykara2017real.pdf
-    - type: video
-      display: Video
-      url: https://youtu.be/8U_mKmUoXV8
-    - type: doi
-      display: DOI
-      url: https://doi.org/10.1109/ICTAI.2017.00145
-  note: '* denotes equal contribution.'
-  bibtex: '@inproceedings{baykara2017real,
-  title={Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos},
-  author={Baykara, Huseyin C. and Biyik, Erdem and Gul, Gamze and Onural, Deniz and Ozturk, Ahmet S. and Yildiz, Ilkay},
-  booktitle={2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI)},
-  pages={945--950},
-  year={2017},
-  organization={IEEE},
-  month=nov,
-  doi={10.1109/ICTAI.2017.00145}
+      url: /assets/publications/OITNN_WangAndong/Code4OITNN_v0.1.zip
+  bibtex: '@article{wang2022robust,
+  title={Robust tensor decomposition via orientation invariant tubal nuclear norms},
+  author={Wang, Andong and Zhao, QiBin and Jin, Zhong and Li, Chao and Zhou, GuoXu},
+  journal={Science China Technological Sciences},
+  volume={65},
+  number={6},
+  pages={1300--1317},
+  year={2022},
+  publisher={Springer}
 }'
