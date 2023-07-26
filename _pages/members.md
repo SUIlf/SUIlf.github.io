@@ -98,8 +98,14 @@ a {
       <div class="row">
         {% endif %}
         <div class="col-sm-6 clearfix">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left;"/>
+          {% if member.url.size > 0 %}
+          <h4><a href="member.url">{{ member.name }}</a></h4>
+          {% endif %}
+          {% if member.url.size == 0 %}
           <h4>{{ member.name }}</h4>
+          {% endif %}
+
           <i>{{ member.info }} </i>
           <ul style="overflow: hidden; padding-inline-start: 30px;">
 
@@ -151,7 +157,7 @@ a {
     <div id="gridid" class="col-sm-12 clearfix">
       <h2>Visiting Scientist</h2>
       {% assign number_printed = 0 %}
-      {% for member in site.data.team_members %}
+      {% for member in site.data.visiting_scientist %}
       {% assign even_odd = number_printed | modulo: 2 %}
       {% if even_odd == 0 %}
 
@@ -159,7 +165,12 @@ a {
         {% endif %}
         <div class="col-sm-6 clearfix">
           <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+          {% if member.url.size > 0 %}
+          <h4><a href="member.url">{{ member.name }}</a></h4>
+          {% endif %}
+          {% if member.url.size == 0 %}
           <h4>{{ member.name }}</h4>
+          {% endif %}
           <i>{{ member.info }} </i>
           <ul style="overflow: hidden; padding-inline-start: 30px;">
 
@@ -219,7 +230,12 @@ a {
         {% endif %}
         <div class="col-sm-6 clearfix">
           <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+          {% if member.url.size > 0 %}
+          <h4><a href="member.url">{{ member.name }}</a></h4>
+          {% endif %}
+          {% if member.url.size == 0 %}
           <h4>{{ member.name }}</h4>
+          {% endif %}
           <i>{{ member.info }} </i>
           <ul style="overflow: hidden; padding-inline-start: 30px;">
 

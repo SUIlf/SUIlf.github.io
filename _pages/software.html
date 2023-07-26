@@ -92,10 +92,16 @@ li {
     {% if paper.year == 2021 %}
     <tr class="paper-font">
       <td>
-        <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp;<b><span>{{ paper.title }}</span></b>&nbsp;
+        <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% if link.icon == 'bibtex' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        {% endif %}
+        {% if link.icon == 'github' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
+        {% endif %}
         {% endfor %}
+        <b><span>{{ paper.title }}</span></b>&nbsp;
       </td>
     </tr>
     {% endif %}
@@ -108,10 +114,17 @@ li {
     {% if paper.year == 2020 %}
     <tr class="paper-font">
       <td>
-        <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp;<b><span>{{ paper.title }}</span></b>&nbsp;
+        <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% if link.icon == 'bibtex' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        {% endif %}
+        {% if link.icon == 'github' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
+        {% endif %}
         {% endfor %}
+        <b><span>{{ paper.title }}</span></b>&nbsp;
+        
       </td>
     </tr>
     {% endif %}
@@ -124,10 +137,17 @@ li {
     {% if paper.year == 2019 %}
     <tr class="paper-font">
       <td>
-        <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp;<b><span>{{ paper.title }}</span></b>&nbsp;
+        <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% if link.icon == 'bibtex' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        {% endif %}
+        {% if link.icon == 'github' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
+        {% endif %}
         {% endfor %}
+        <b><span>{{ paper.title }}</span></b>&nbsp;
+        
       </td>
     </tr>
     {% endif %}
@@ -139,10 +159,17 @@ li {
     {% if paper.year == 2018 %}
     <tr class="paper-font">
       <td>
-        <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp;<b><span>{{ paper.title }}</span></b>&nbsp;
+        <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% if link.icon == 'bibtex' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        {% endif %}
+        {% if link.icon == 'github' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
+        {% endif %}
         {% endfor %}
+        <b><span>{{ paper.title }}</span></b>&nbsp;
+        
       </td>
     </tr>
     {% endif %}
@@ -155,10 +182,17 @@ li {
     {% if paper.year == 'other' %}
     <tr class="paper-font">
       <td>
-        <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp;<b><span>{{ paper.title }}</span></b>&nbsp;
+        <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;
+        {% if link.icon == 'bibtex' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        {% endif %}
+        {% if link.icon == 'github' %}
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
+        {% endif %}
         {% endfor %}
+        <b><span>{{ paper.title }}</span></b>&nbsp;
+        
       </td>
     </tr>
     {% endif %}

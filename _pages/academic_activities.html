@@ -75,37 +75,39 @@ li {
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
   <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1>
 
-    <h2>  </h2>
+    <br><br>
     <div class="news-a">
       {% for activity in site.data.activities %}
       <section class="news-p">
-        {% if activity.date.size > 0 %}
-        <span class="news-date"><b>{{ activity.date | date_to_string }}</b></span><br>
-        {% endif %}
-        <i style="font-size: 12px;" class="fa fa-bookmark" aria-hidden="true"></i>&nbsp;<b>{{ activity.title }}</b>&nbsp;
+        <span class="news-date"><b>{{ activity.date }}</b></span><br>
 
         {% if activity.url.size > 0 %}
         <a href="{{ activity.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
         {% endif %}
+
         {% if activity.pdf_url.size > 0 %}
-        <a href="{{ activity.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;PDF</button></a>
+        <a href="{{ activity.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&emsp;&nbsp;PDF&emsp;</button></a>
         {% endif %}
 
+        &nbsp;<b>{{ activity.title }}</b>&nbsp;
         <br>
+
         {% if activity.sub == 1 %}
           {% for link in activity.links %}
-          &emsp;{{ link.sub_title }}
+          &emsp;&emsp;
           {% if link.url.size > 0 %}
           <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
           {% endif %}
           {% if link.pdf_url.size > 0 %}
           <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-book"></i>&nbsp;PDF</button></a>
           {% endif %}
+          {{ link.sub_title }}
           <br>
           {% endfor %}
         {% endif %}
       </section>
       <br>
+      <hr>
       {% endfor %}
     </div> 
 </div>
