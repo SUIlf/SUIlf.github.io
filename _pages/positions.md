@@ -24,12 +24,12 @@ author_profile: false
   }
 
 
-  .page__footer-follow li {
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: .8em;
-    text-transform: none;
+.page__footer-follow li {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: .8em;
+  text-transform: none;
 }
 
 #gridid i {
@@ -42,14 +42,14 @@ author_profile: false
 }
 </style>
 
-<div class="container-home page__other__hero--overlay">
+<div style="padding-bottom: 10rem;" class="container-home page__other__hero--overlay">
 <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1>
 
 {% include gallery id="gallery" class="gallery-thumbnail"  %}
 
 </div>
 
-<div class="page__footer">
+<div style="position: absolute; bottom: 0;" class="page__footer">
   <footer-new>
     <div class="row">
       <div id="gridid" class="col-sm-12">
@@ -70,9 +70,8 @@ author_profile: false
               </ul>
             </div>
           </div>
+          <div class="page__footer-copyright" style="padding-left: 30px; padding-right: 30px; color:#808080">© 2023 Tensor Learning Team. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
+          </div>
         </div>
       </div>
-    <br><br>
-    <div class="page__footer-copyright" style="padding-left: 30px; padding-right: 30px; color:#808080">© 2023 Tensor Learning Team. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
     </div>
-</div>

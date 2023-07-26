@@ -22,7 +22,7 @@ permalink: /members/
 .page__footer-follow li {
   display: inline-block;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
   font-size: .8em;
   text-transform: none;
 }
@@ -85,7 +85,7 @@ a {
 </style>
 
 
-<div class="container-home page__other__hero--overlay">
+<div style="padding-bottom: 10rem;" class="container-home page__other__hero--overlay">
   <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1>
   <div class="row">
     <div id="gridid" class="col-sm-12 clearfix">
@@ -276,7 +276,7 @@ a {
 
 
 
-<div class="page__footer">
+<div style="position: absolute; bottom: 0;" class="page__footer">
   <footer-new>
     <div class="row">
       <div id="gridid" class="col-sm-12">
@@ -297,12 +297,11 @@ a {
               </ul>
             </div>
           </div>
+          <div class="page__footer-copyright" style="padding-left: 30px; padding-right: 30px; color:#808080">© 2023 Tensor Learning Team. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
+          </div>
         </div>
       </div>
-    <br><br>
-    <div class="page__footer-copyright" style="padding-left: 30px; padding-right: 30px; color:#808080">© 2023 Tensor Learning Team. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
     </div>
-</div>
 
 
 
