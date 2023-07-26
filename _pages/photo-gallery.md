@@ -66,7 +66,7 @@ gallery:
 }
 </style>
 
-<div style="padding-bottom: 10rem;" class="container-home page__other__hero--overlay">
+<div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
 <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1>
 
 {% include gallery id="gallery" class="gallery-thumbnail"  %}
