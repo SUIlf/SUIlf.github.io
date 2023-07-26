@@ -2,7 +2,7 @@
 - name: Qibin Zhao
   photo: qibinZhao.png
   info: Team Leader
-  url: https://qibinzhao.github.io/
+  url: 'https://qibinzhao.github.io/'
   email: 
   number_educ: 2
   education1: TBD
@@ -12,7 +12,7 @@
 - name: Chao Li
   photo: chaoLi.png
   info: Research Scientist
-  url: 
+  url: ''
   email: 
   number_educ: 2
   education1: TBD
@@ -22,6 +22,7 @@
 - name: Andong Wang
   photo: andongWang.jpg
   info: Postdoctoral Researcher
+  url: ''
   email: 
   number_educ: 2
   education1: TBD
@@ -31,6 +32,7 @@
 - name: Mingyuan Bai
   photo: None.png
   info: Postdoctoral Researcher
+  url: ''
   email: 
   number_educ: 2
   education1: TBD

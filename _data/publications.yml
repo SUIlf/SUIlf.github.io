@@ -24,6 +24,7 @@
   #     url: https://doi.org/10.1109/hri53351.2022.9889650 
 
 - year: 2023
+  type: conference
   title: 'Active Reward Learning from Online Preferences'
   authors: Vivek Myers, Erdem Bıyık, Dorsa Sadigh
   venue: International Conference on Robotics and Automation (ICRA), May 2023
@@ -50,6 +51,7 @@
 }'
 
 - year: 2023
+  type: conference
   title: 'ViSaRL: Visual Reinforcement Learning Guided by Human Saliency'
   authors: Anthony Liang, Jesse Thomason, Erdem Bıyık
   venue: Pretraining for Robotics Workshop at ICRA, May 2023
@@ -74,6 +76,7 @@
 }'
 
 - year: 2022
+  type: conference
   title: 'Spd domain-specific batch normalization to crack interpretable unsupervised domain adaptation in eeg'
   authors: R. J. Kobler, J.-i. Hirayama, Q. Zhao, and M. Kawanabe.
   venue: Conference on Neural Information Processing Systems (NeurIPS), 2022
@@ -95,6 +98,7 @@
 }'
 
 - year: 2022
+  type: conference
   title: 'How do People Incorporate Advice from Artificial Agents when Making Physical Judgments?'
   authors: Erik Brockbank*, Haoliang Wang*, Justin Yang, Suvir Mirchandani, Erdem Bıyık, Dorsa Sadigh, Judith Fan
   venue: Cognitive Science Society Conference (CogSci), July 2022
@@ -120,6 +124,7 @@
 }'
 
 - year: 2022
+  type: journal
   title: 'Learning Preferences For Interactive Autonomy'
   authors: Erdem Bıyık
   venue: EE Department, Stanford University, May 2022
@@ -141,6 +146,7 @@
 }'
 
 - year: 2022
+  type: journal
   title: 'Leveraging Smooth Attention Prior for Multi-Agent Trajectory Prediction'
   authors: Zhangjie Cao, Erdem Bıyık, Guy Rosman, Dorsa Sadigh
   venue: International Conference on Robotics and Automation (ICRA), May 2022
@@ -171,6 +177,7 @@
 }'
 
 - year: 2021
+  type: conference
   title: 'Learning Multimodal Rewards from Rankings'
   authors: Vivek Myers, Erdem Bıyık, Nima Anari, Dorsa Sadigh
   venue: Proceedings of the 5th Conference on Robot Learning (CoRL), November 2021
@@ -201,6 +208,7 @@
 }'
 
 - year: 2021
+  type: conference
   title: 'Learning Reward Functions from Scale Feedback'
   authors: Nils Wilde*, Erdem Bıyık*, Dorsa Sadigh, Stephen L. Smith
   venue: Proceedings of the 5th Conference on Robot Learning (CoRL), November 2021
@@ -231,6 +239,7 @@
 }'
 
 - year: 2021
+  type: conference
   title: 'Learning Reward Functions from Diverse Sources of Human Feedback: Optimally Integrating Demonstrations and Preferences'
   authors: Erdem Bıyık, Dylan P. Losey, Malayandi Palan, Nicholas C. Landolfi, Gleb Shevchuk, Dorsa Sadigh
   venue: The International Journal of Robotics Research (IJRR), 2021
@@ -257,6 +266,7 @@
 }'
 
 - year: 2020
+  type: conference
   title: 'Active Preference-Based Gaussian Process Regression for Reward Learning'
   authors: Erdem Bıyık*, Nicolas Huynh*, Mykel J. Kochenderfer, Dorsa Sadigh
   venue: 'Proceedings of Robotics: Science and Systems (RSS), July 2020'
@@ -291,6 +301,7 @@
 }'
 
 - year: 2020
+  type: conference
   title: 'Reinforcement Learning based Control of Imitative Policies for Near-Accident Driving'
   authors: Zhangjie Cao*, Erdem Bıyık*, Woodrow Z. Wang, Allan Raventos, Adrien Gaidon, Guy Rosman, Dorsa Sadigh
   venue: 'Proceedings of Robotics: Science and Systems (RSS), July 2020'
@@ -322,6 +333,7 @@
 }'
 
 - year: 2020
+  type: conference
   title: 'Emergent Correlated Equilibrium through Synchronized Exploration'
   authors: Mark Beliaev*, Woodrow Z. Wang*, Daniel A. Lazar, Erdem Bıyık, Dorsa Sadigh, Ramtin Pedarsani
   venue: 'RSS 2020 Workshop on Emergent Behaviors in Human-Robot Systems, July 2020'
@@ -343,6 +355,7 @@
 }'
 
 - year: 2020
+  type: conference
   title: "When Humans Aren't Optimal: Robots that Collaborate with Risk-Aware Humans"
   authors: Minae Kwon, Erdem Bıyık, Aditi Talati, Karan Bhasin, Dylan P. Losey, Dorsa Sadigh
   venue: ACM/IEEE International Conference on Human-Robot Interaction (HRI), March 2020
@@ -375,6 +388,7 @@
 }"
 
 - year: 2019
+  type: conference
   title: 'Asking Easy Questions: A User-Friendly Approach to Active Reward Learning'
   authors: Erdem Bıyık, Malayandi Palan, Nicholas C. Landolfi, Dylan P. Losey, Dorsa Sadigh
   venue: Proceedings of the 3rd Conference on Robot Learning (CoRL), October 2019
@@ -405,6 +419,7 @@
 }'
 
 - year: 2019
+  type: conference
   title: 'Efficient and Safe Exploration in Deterministic Markov Decision Processes with Unknown Transition Models'
   authors: Erdem Bıyık*, Jonathan Margoliash*, Shahrouz R. Alimo, Dorsa Sadigh
   venue: Proceedings of the American Control Conference (ACC), July 2019
@@ -430,6 +445,7 @@
 }'
 
 - year: 2019
+  type: conference
   title: 'Batch Active Learning Using Determinantal Point Processes'
   authors: Erdem Bıyık, Kenneth Wang, Nima Anari, Dorsa Sadigh
   venue: arXiv preprint, June 2019
@@ -450,6 +466,7 @@
 }'
 
 - year: 2018
+  type: conference
   title: 'Altruistic Autonomy: Beating Congestion on Shared Roads'
   authors: 'Erdem Bıyık*, Daniel A. Lazar*, Ramtin Pedarsani, Dorsa Sadigh'
   venue: Proceedings of the 13th International Workshop on Algorithmic Foundations of Robotics (WAFR), December 2018
@@ -478,6 +495,7 @@
 }'
 
 - year: 2018
+  type: conference
   title: Batch Active Preference-Based Learning of Reward Functions
   authors: Erdem Bıyık, Dorsa Sadigh
   venue: Proceedings of the 2nd Conference on Robot Learning (CoRL), October 2018
@@ -515,6 +533,7 @@
 }'
 
 - year: 2018
+  type: conference
   title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
   authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
   venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017
@@ -542,6 +561,7 @@
 }'
 
 - year: 2017
+  type: conference
   title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
   authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
   venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017
@@ -569,6 +589,7 @@
 }'
 
 - year: 2017
+  type: conference
   title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
   authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
   venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017
@@ -596,6 +617,7 @@
 }'
 
 - year: 2016
+  type: conference
   title: Real-Time Detection, Tracking and Classification of Multiple Moving Objects in UAV Videos
   authors: Hüseyin C. Baykara*, Erdem Bıyık*, Gamze Gül*, Deniz Onural*, Ahmet S. Öztürk*, İlkay Yıldız*
   venue: International Conference on Tools with Artificial Intelligence (ICTAI), November 2017

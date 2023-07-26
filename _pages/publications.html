@@ -101,7 +101,13 @@ li {
     {% if paper.year == 2023 %}
     <tr class="paper-font" style="height:120px;">
       <td>
-      	<i style="font-style:normal" class="fa fa-tag"></i>&nbsp;<b><span>{{ paper.title }}</span></b><br>
+        {% if paper.type == 'conference' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#67;&nbsp;</span></b>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <span style="border: 1px solid #000;">&nbsp;&#74;&nbsp;</span>
+        {% endif %}
+        &nbsp;<b><span>{{ paper.title }}</span></b><br>
 	 			<span>{{ paper.authors }}</span><br>
 	 			<i>{{ paper.venue }}</i><br>
 	  		{% if paper.bibtex.size > 0 %}
@@ -128,7 +134,13 @@ li {
     {% if paper.year == 2022 %}
     <tr class="paper-font" style="height:120px;">
       <td>
-        <i style="" class="fa fa-tag"></i>&nbsp;<b><span>{{ paper.title }}</span></b><br>
+        {% if paper.type == 'conference' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#67;&nbsp;</span></b>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#74;&nbsp;</span></b>
+        {% endif %}
+        &nbsp;<b><span>{{ paper.title }}</span></b><br>
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
@@ -155,7 +167,13 @@ li {
     {% if paper.year == 2021 %}
     <tr class="paper-font" style="height:120px;">
       <td>
-        <i style="font-style:normal" class="fa fa-tag"></i>&nbsp;<b><span>{{ paper.title }}</span></b><br>
+        {% if paper.type == 'conference' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#67;&nbsp;</span></b>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#74;&nbsp;</span></b>
+        {% endif %}
+        &nbsp;<b><span>{{ paper.title }}</span></b><br>
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
@@ -182,7 +200,13 @@ li {
     {% if paper.year == 2020 %}
     <tr class="paper-font" style="height:120px;">
       <td>
-        <i style="font-style:normal" class="fa fa-tag"></i>&nbsp;<b><span>{{ paper.title }}</span></b><br>
+        {% if paper.type == 'conference' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#67;&nbsp;</span></b>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#74;&nbsp;</span></b>
+        {% endif %}
+        &nbsp;<b><span>{{ paper.title }}</span></b><br>
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
@@ -209,7 +233,13 @@ li {
     {% if paper.year == 2019 %}
     <tr class="paper-font" style="height:120px;">
       <td>
-        <i style="font-style:normal" class="fa fa-tag"></i>&nbsp;<b><span>{{ paper.title }}</span></b><br>
+        {% if paper.type == 'conference' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#67;&nbsp;</span></b>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#74;&nbsp;</span></b>
+        {% endif %}
+        &nbsp;<b><span>{{ paper.title }}</span></b><br>
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
@@ -235,7 +265,13 @@ li {
     {% if paper.year == 2018 %}
     <tr class="paper-font" style="height:120px;">
       <td>
-        <i style="font-style:normal" class="fa fa-tag"></i>&nbsp;<b><span>{{ paper.title }}</span></b><br>
+        {% if paper.type == 'conference' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#67;&nbsp;</span></b>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#74;&nbsp;</span></b>
+        {% endif %}
+        &nbsp;<b><span>{{ paper.title }}</span></b><br>
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
@@ -261,7 +297,13 @@ li {
     {% if paper.year == 2017 %}
     <tr class="paper-font" style="height:120px;">
       <td>
-        <i style="font-style:normal" class="fa fa-tag"></i>&nbsp;<b><span>{{ paper.title }}</span></b><br>
+        {% if paper.type == 'conference' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#67;&nbsp;</span></b>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#74;&nbsp;</span></b>
+        {% endif %}
+        &nbsp;<b><span>{{ paper.title }}</span></b><br>
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}
@@ -287,7 +329,13 @@ li {
     {% if paper.year == 2016 %}
     <tr class="paper-font" style="height:120px;">
       <td>
-        <i style="font-style:normal" class="fa fa-tag"></i>&nbsp;<b><span>{{ paper.title }}</span></b><br>
+        {% if paper.type == 'conference' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#67;&nbsp;</span></b>
+        {% endif %}
+        {% if paper.type == 'journal' %}
+        <b><span style="border: 1px solid #000;">&nbsp;&#74;&nbsp;</span></b>
+        {% endif %}
+        &nbsp;<b><span>{{ paper.title }}</span></b><br>
         <span>{{ paper.authors }}</span><br>
         <i>{{ paper.venue }}</i><br>
         {% if paper.bibtex.size > 0 %}

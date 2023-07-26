@@ -9,11 +9,6 @@ permalink: /members/
 <link rel="stylesheet" href="/assets/css/bootstrap.css">
 
 <style>
-  .mfp-title {
-    text-align:center;
-    font-size:2em;
-    line-height:35px
-  }
 
   .entry-headers {
     padding-top: 1.0em;
@@ -54,8 +49,8 @@ h4, .h4 {
 
 #gridid ul {
     display: block;
-    margin-block-start: 5px;
-    margin-block-end: 5px;
+/*    margin-block-start: 5px;
+    margin-block-end: 5px;*/
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 /*    padding-inline-start: 30px;*/
@@ -85,211 +80,138 @@ a {
 </style>
 
 
-<div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
+<div id="gridid" style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
   <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1>
+
+  <h2>Staff</h2>
   <div class="row">
-    <div id="gridid" class="col-sm-12 clearfix">
-      <h2>Staff</h2>
-      {% assign number_printed = 0 %}
-      {% for member in site.data.team_members %}
-      {% assign even_odd = number_printed | modulo: 2 %}
-      {% if even_odd == 0 %}
-
-      <div class="row">
-        {% endif %}
-        <div class="col-sm-6 clearfix">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left;"/>
-          {% if member.url.size > 0 %}
-          <h4><a href="member.url">{{ member.name }}</a></h4>
-          {% endif %}
-          {% if member.url.size == 0 %}
-          <h4>{{ member.name }}</h4>
-          {% endif %}
-
-          <i>{{ member.info }} </i>
-          <ul style="overflow: hidden; padding-inline-start: 30px;">
-
-          {% if member.number_educ == 1 %}
-          <li> {{ member.education1 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 2 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 3 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 4 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          <li> {{ member.education4 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 5 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          <li> {{ member.education4 }} </li>
-          <li> {{ member.education5 }} </li>
-          {% endif %}
-
-          </ul>
-        </div>
-        {% assign number_printed = number_printed | plus: 1 %}
-        {% if even_odd == 1 %}
-      </div>
+    {% for member in site.data.team_members %}
+    <div class="col-sm-6 clearfix">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left;"/>
+      {% if member.url.size > 0 %}
+      <h4><a href="member.url">{{ member.name }}</a></h4>
       {% endif %}
-      {% endfor %}
-      {% assign even_odd = number_printed | modulo: 2 %}
-      {% if even_odd == 1 %}
+      {% if member.url.size == 0 %}
+      <h4>{{ member.name }}</h4>
+      {% endif %}
+      <i>{{ member.info }} </i>
+      <ul style="overflow: hidden; padding-inline-start: 30px;">
+        {% if member.number_educ == 1 %}
+        <li> {{ member.education1 }} </li>
+        {% endif %}
+        {% if member.number_educ == 2 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        {% endif %}
+        {% if member.number_educ == 3 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        {% endif %}
+        {% if member.number_educ == 4 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        <li> {{ member.education4 }} </li>
+        {% endif %}
+        {% if member.number_educ == 5 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        <li> {{ member.education4 }} </li>
+        <li> {{ member.education5 }} </li>
+        {% endif %}
+      </ul>
     </div>
-    {% endif %}
+    {% endfor %}
+  </div>
+  
+  <h2>Visiting Scientist</h2>
+  <div class="row">
+  {% for member in site.data.visiting_scientist %}
+    <div class="col-sm-6 clearfix">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      {% if member.url.size > 0 %}
+      <h4><a href="member.url">{{ member.name }}</a></h4>
+      {% endif %}
+      {% if member.url.size == 0 %}
+      <h4>{{ member.name }}</h4>
+      {% endif %}
+      <i>{{ member.info }} </i>
+      <ul style="overflow: hidden; padding-inline-start: 30px;">
+        {% if member.number_educ == 1 %}
+        <li> {{ member.education1 }} </li>
+        {% endif %}
+        {% if member.number_educ == 2 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        {% endif %}
+        {% if member.number_educ == 3 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        {% endif %}
+        {% if member.number_educ == 4 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        <li> {{ member.education4 }} </li>
+        {% endif %}
+        {% if member.number_educ == 5 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        <li> {{ member.education4 }} </li>
+        <li> {{ member.education5 }} </li>
+        {% endif %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+  
+  <h2>Students</h2>
+  <div class="row">
+    {% for member in site.data.student_members %}
+    <div class="col-sm-6 clearfix">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      {% if member.url.size > 0 %}
+      <h4><a href="member.url">{{ member.name }}</a></h4>
+      {% endif %}
+      {% if member.url.size == 0 %}
+      <h4>{{ member.name }}</h4>
+      {% endif %}
+      <i>{{ member.info }} </i>
+      <ul style="overflow: hidden; padding-inline-start: 30px;">
+        {% if member.number_educ == 1 %}
+        <li> {{ member.education1 }} </li>
+        {% endif %}
+        {% if member.number_educ == 2 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        {% endif %}
+        {% if member.number_educ == 3 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        {% endif %}
+        {% if member.number_educ == 4 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        <li> {{ member.education4 }} </li>
+        {% endif %}
+        {% if member.number_educ == 5 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        <li> {{ member.education4 }} </li>
+        <li> {{ member.education5 }} </li>
+        {% endif %}
+      </ul>
+    </div>
+    {% endfor %}
   </div>
 </div>
-
-  <div style="margin-top:15px;" class="row">
-    <div id="gridid" class="col-sm-12 clearfix">
-      <h2>Visiting Scientist</h2>
-      {% assign number_printed = 0 %}
-      {% for member in site.data.visiting_scientist %}
-      {% assign even_odd = number_printed | modulo: 2 %}
-      {% if even_odd == 0 %}
-
-      <div class="row">
-        {% endif %}
-        <div class="col-sm-6 clearfix">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-          {% if member.url.size > 0 %}
-          <h4><a href="member.url">{{ member.name }}</a></h4>
-          {% endif %}
-          {% if member.url.size == 0 %}
-          <h4>{{ member.name }}</h4>
-          {% endif %}
-          <i>{{ member.info }} </i>
-          <ul style="overflow: hidden; padding-inline-start: 30px;">
-
-          {% if member.number_educ == 1 %}
-          <li> {{ member.education1 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 2 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 3 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 4 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          <li> {{ member.education4 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 5 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          <li> {{ member.education4 }} </li>
-          <li> {{ member.education5 }} </li>
-          {% endif %}
-
-          </ul>
-        </div>
-        {% assign number_printed = number_printed | plus: 1 %}
-        {% if even_odd == 1 %}
-      </div>
-      {% endif %}
-      {% endfor %}
-      {% assign even_odd = number_printed | modulo: 2 %}
-      {% if even_odd == 1 %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-
-  <div style="margin-top:15px;" class="row">
-    <div id="gridid" class="col-sm-12 clearfix">
-      <h2>Students</h2>
-      {% assign number_printed = 0 %}
-      {% for member in site.data.student_members %}
-      {% assign even_odd = number_printed | modulo: 2 %}
-      {% if even_odd == 0 %}
-
-      <div class="row">
-        {% endif %}
-        <div class="col-sm-6 clearfix">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-          {% if member.url.size > 0 %}
-          <h4><a href="member.url">{{ member.name }}</a></h4>
-          {% endif %}
-          {% if member.url.size == 0 %}
-          <h4>{{ member.name }}</h4>
-          {% endif %}
-          <i>{{ member.info }} </i>
-          <ul style="overflow: hidden; padding-inline-start: 30px;">
-
-          {% if member.number_educ == 1 %}
-          <li> {{ member.education1 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 2 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 3 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 4 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          <li> {{ member.education4 }} </li>
-          {% endif %}
-
-          {% if member.number_educ == 5 %}
-          <li> {{ member.education1 }} </li>
-          <li> {{ member.education2 }} </li>
-          <li> {{ member.education3 }} </li>
-          <li> {{ member.education4 }} </li>
-          <li> {{ member.education5 }} </li>
-          {% endif %}
-
-          </ul>
-        </div>
-        {% assign number_printed = number_printed | plus: 1 %}
-        {% if even_odd == 1 %}
-      </div>
-      {% endif %}
-      {% endfor %}
-      {% assign even_odd = number_printed | modulo: 2 %}
-      {% if even_odd == 1 %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-</div>
-
-
-
-
-
-
-
 
 
 <div style="position: absolute; bottom: 0;" class="page__footer">

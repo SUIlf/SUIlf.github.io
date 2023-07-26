@@ -54,37 +54,6 @@ li {
 
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
   <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1>
-<!-- 	<h2> 2023 </h2>
-  <table class="publications">
-    {% for paper in site.data.software %}
-    {% if paper.year == 2023 %}
-    <tr class="paper-font">
-      <td>
-      	<i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp;<b><span>{{ paper.title }}</span></b>&nbsp;
-	  		{% for link in paper.links %}
-	    	<a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
-	  		{% endfor %}
-	  	</td>
-    </tr>
-    {% endif %}
-    {% endfor %}
-  </table> -->
-
-<!--   <h2> 2022 </h2>
-  <table class="publications">
-    {% for paper in site.data.software %}
-    {% if paper.year == 2022 %}
-    <tr class="paper-font">
-      <td>
-        <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp;<b><span>{{ paper.title }}</span></b>&nbsp;
-        {% for link in paper.links %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a> &nbsp;&nbsp;
-        {% endfor %}
-      </td>
-    </tr>
-    {% endif %}
-    {% endfor %}
-  </table> -->
 
   <h2> 2021 </h2>
   <table class="publications">
@@ -95,7 +64,7 @@ li {
         <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
         {% if link.icon == 'bibtex' %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn">&nbsp;<i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;</button></a>&nbsp;
         {% endif %}
         {% if link.icon == 'github' %}
         <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
@@ -117,7 +86,7 @@ li {
         <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
         {% if link.icon == 'bibtex' %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn">&nbsp;<i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;</button></a>&nbsp;
         {% endif %}
         {% if link.icon == 'github' %}
         <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
@@ -140,7 +109,7 @@ li {
         <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
         {% if link.icon == 'bibtex' %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn">&nbsp;<i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;</button></a>&nbsp;
         {% endif %}
         {% if link.icon == 'github' %}
         <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
@@ -162,7 +131,7 @@ li {
         <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
         {% if link.icon == 'bibtex' %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn">&nbsp;<i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;</button></a>&nbsp;
         {% endif %}
         {% if link.icon == 'github' %}
         <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
@@ -185,7 +154,7 @@ li {
         <!-- <i style="font-style:normal" class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; -->
         {% for link in paper.links %}
         {% if link.icon == 'bibtex' %}
-        <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;&nbsp;</button></a>&nbsp;
+        <a href="{{ link.url | default: '#' }}"><button class="paper-btn">&nbsp;<i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;&nbsp;{{ link.display }}&nbsp;</button></a>&nbsp;
         {% endif %}
         {% if link.icon == 'github' %}
         <a href="{{ link.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="{{ site.publication_buttons[link.icon] }}"></i>&nbsp;{{ link.display }}</button></a>&nbsp;
@@ -228,7 +197,3 @@ li {
         </div>
       </div>
     </div>
-
-
-
-
