@@ -25,6 +25,27 @@
 
 # journal conference
 # ----------------------------------------------------------------------------
+- year: 2023
+  type: conference
+  title: 'Memorization weights for instance reweighting in adversarial training'
+  authors: J. Zhang, Y. Hong, and Q. Zhao.
+  venue: AAAI Conference on Artificial Intelligence (AAAI), 2023
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/26329
+  bibtex: '@inproceedings{zhang2023memorization,
+  title={Memorization Weights for Instance Reweighting in Adversarial Training},
+  author={Zhang, Jianfu and Hong, Yan and Zhao, Qibin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={9},
+  pages={11228--11236},
+  year={2023}
+}'
+
+# ----------------------------------------------------------------------------
 - year: 2022
   type: conference
   title: 'Spd domain-specific batch normalization to crack interpretable unsupervised domain adaptation in eeg'
@@ -457,3 +478,513 @@
   year={2022},
   publisher={Springer}
 }'
+
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Deep multimodal multilinear fusion with high-order polynomial pooling'
+  authors: M. Hou, J. Tang, J. Zhang, W. Kong, Q. Zhao.
+  venue: Conference on Neural Information Processing Systems (NeurIPS), 2019
+  picture: 
+  links:
+    - type: pdf
+      display: PDF
+      url: https://proceedings.neurips.cc/paper_files/paper/2019/file/f56d8183992b6c54c92c16a8519a6e2b-Paper.pdf
+    - type: website
+      display: Website
+      url: https://proceedings.neurips.cc/paper_files/paper/2019/hash/f56d8183992b6c54c92c16a8519a6e2b-Abstract.html
+    - type: slide
+      display: Slide
+      url: /assets/publications/NeurIPS_2019_HouMing/Deep_Multimoda_Multilinear_Fusion_with_High_order_Polynomial_Pooling.pdf
+    - type: code
+      display: Code
+      url: /assets/publications/NeurIPS_2019_HouMing/HPFN.zip
+  bibtex: '@article{hou2019deep,
+  title={Deep multimodal multilinear fusion with high-order polynomial pooling},
+  author={Hou, Ming and Tang, Jiajia and Zhang, Jianhai and Kong, Wanzeng and Zhao, Qibin},
+  journal={Advances in Neural Information Processing Systems},
+  volume={32},
+  year={2019}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Dynamic pet image reconstruction using nonnegative matrix factorization incorporated with deep image prior'
+  authors: T. Yokota, K. Kawai, M. Sakata, Y. Kimura, H. Hontani.
+  venue: International Conference on Computer Vision (ICCV), 2019
+  picture: 
+  links:
+    - type: pdf
+      display: PDF
+      url: https://openaccess.thecvf.com/content_ICCV_2019/papers/Yokota_Dynamic_PET_Image_Reconstruction_Using_Nonnegative_Matrix_Factorization_Incorporated_With_ICCV_2019_paper.pdf
+    - type: website
+      display: Website
+      url: https://openaccess.thecvf.com/content_ICCV_2019/html/Yokota_Dynamic_PET_Image_Reconstruction_Using_Nonnegative_Matrix_Factorization_Incorporated_With_ICCV_2019_paper.html
+  bibtex: '@inproceedings{yokota2019dynamic,
+  title={Dynamic PET image reconstruction using nonnegative matrix factorization incorporated with deep image prior},
+  author={Yokota, Tatsuya and Kawai, Kazuya and Sakata, Muneyuki and Kimura, Yuichi and Hontani, Hidekata},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3126--3135},
+  year={2019}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Learning Representations from Imperfect Time Series Data via Tensor Rank Regularization'
+  authors: P. Liang, Z. Liu, Y. Tsai, Q. Zhao, R. Salakhutdinov, L. Morency.
+  venue: Annual Meeting of the Association for Computational Linguistics (ACL), 2019
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1907.01011
+    - type: slide
+      display: Slide
+      url: http://www.cs.cmu.edu/~pliang/posters/acl2019_tensor_poster.pdf
+    - type: website
+      display: Website
+      url: https://openaccess.thecvf.com/content_ICCV_2019/html/Yokota_Dynamic_PET_Image_Reconstruction_Using_Nonnegative_Matrix_Factorization_Incorporated_With_ICCV_2019_paper.html
+  bibtex: '@article{liang2019learning,
+  title={Learning representations from imperfect time series data via tensor rank regularization},
+  author={Liang, Paul Pu and Liu, Zhun and Tsai, Yao-Hung Hubert and Zhao, Qibin and Salakhutdinov, Ruslan and Morency, Louis-Philippe},
+  journal={arXiv preprint arXiv:1907.01011},
+  year={2019}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Guaranteed Matrix Completion Under Multiple Linear Transformations'
+  authors: C. Li, W. He, L. Yuan, Z. Sun, Q. Zhao.
+  venue: The Conference on Computer Vision and Pattern Recognition (CVPR), 2019
+  picture: 
+  links:
+    - type: pdf
+      display: PDF
+      url: https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Guaranteed_Matrix_Completion_Under_Multiple_Linear_Transformations_CVPR_2019_paper.pdf
+    - type: slide
+      display: Slide
+      url: /assets/publications/CVPR19_LiChao/CVPR19_slides.pdf
+    - type: website
+      display: Website
+      url: https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Guaranteed_Matrix_Completion_Under_Multiple_Linear_Transformations_CVPR_2019_paper.html
+  bibtex: '@inproceedings{li2019guaranteed,
+  title={Guaranteed matrix completion under multiple linear transformations},
+  author={Li, Chao and He, Wei and Yuan, Longhao and Sun, Zhun and Zhao, Qibin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={11136--11145},
+  year={2019}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Non-Local Meets Global: An Integrated Paradigm for Hyperspectral Denoising'
+  authors: W. He, Q. Yao, C. Li, N. Yokoya, Q. Zhao.
+  venue: The Conference on Computer Vision and Pattern Recognition (CVPR), 2019
+  picture: 
+  links:
+    - type: pdf
+      display: PDF
+      url: https://openaccess.thecvf.com/content_CVPR_2019/papers/He_Non-Local_Meets_Global_An_Integrated_Paradigm_for_Hyperspectral_Denoising_CVPR_2019_paper.pdf
+    - type: website
+      display: Website
+      url: https://openaccess.thecvf.com/content_CVPR_2019/html/He_Non-Local_Meets_Global_An_Integrated_Paradigm_for_Hyperspectral_Denoising_CVPR_2019_paper.html
+  bibtex: '@inproceedings{he2019non,
+  title={Non-local meets global: An integrated paradigm for hyperspectral denoising},
+  author={He, Wei and Yao, Quanming and Li, Chao and Yokoya, Naoto and Zhao, Qibin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6868--6877},
+  year={2019}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Learning Efficient Tensor Representations with Ring-structured Networks'
+  authors: Q. Zhao, M. Sugiyama, L. Yuan, A, Cichocki.
+  venue: The International Conference on Acoustics, Speech, & Signal Processing (ICASSP), 2019
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1705.08286
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/8682231
+    - type: slide
+      display: Poster
+      url: /assets/publications/ICASSP_2019_ZhaoQibin/Learning_Efficient_Tensor_Representations_with_Ring_Structure_Networks.pdf
+  bibtex: '@inproceedings{zhao2019learning,
+  title={Learning efficient tensor representations with ring-structured networks},
+  author={Zhao, Qibin and Sugiyama, Masashi and Yuan, Longhao and Cichocki, Andrzej},
+  booktitle={ICASSP 2019-2019 IEEE international conference on acoustics, speech and signal processing (ICASSP)},
+  pages={8608--8612},
+  year={2019},
+  organization={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Low-rank Embedding of Kernels in Convolutional Neural Networks under Random Shuffling'
+  authors: C. Li, Z. Sun, J. Yu, M. Hou, Q. Zhao.
+  venue: The International Conference on Acoustics, Speech, & Signal Processing (ICASSP), 2019
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1810.13098
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/abstract/document/8682265
+    - type: slide
+      display: Poster
+      url: /assets/publications/ICASSP_2019_LiChao/Poster_ICASSP.pdf
+  bibtex: '@inproceedings{li2019low,
+  title={Low-rank embedding of kernels in convolutional neural networks under random shuffling},
+  author={Li, Chao and Sun, Zhun and Yu, Jinshi and Hou, Ming and Zhao, Qibin},
+  booktitle={ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={3022--3026},
+  year={2019},
+  organization={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Randomized Tensor Ring Decomposition and Its Application to Large-scale Data Reconstruction'
+  authors: L. Yuan, C. Li, J. Cao, Q. Zhao.
+  venue: The International Conference on Acoustics, Speech, & Signal Processing (ICASSP), 2019
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1901.01652
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/8682197
+    - type: slide
+      display: Poster
+      url: /assets/publications/ICASSP_2019_YuanLonghao/ICASSP_Yuan_poster.pdf
+  bibtex: '@inproceedings{yuan2019randomized,
+  title={Randomized tensor ring decomposition and its application to large-scale data reconstruction},
+  author={Yuan, Longhao and Li, Chao and Cao, Jianting and Zhao, Qibin},
+  booktitle={ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={2127--2131},
+  year={2019},
+  organization={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Total-variation-regularized Tensor Ring Completion for Remote Sensing Image Reconstruction'
+  authors: W. He, L. Yuan, N. Yokoya.
+  venue: The International Conference on Acoustics, Speech, & Signal Processing (ICASSP), 2019
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/8682696
+    - type: slide
+      display: Poster
+      url: /assets/publications/ICASSP_2019_HeWei/ICASSP_Wei_poster.pdf
+  bibtex: '@inproceedings{he2019total,
+  title={Total-variation-regularized tensor ring completion for remote sensing image reconstruction},
+  author={He, Wei and Yuan, Longhao and Yokoya, Naoto},
+  booktitle={ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={8603--8607},
+  year={2019},
+  organization={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: conference
+  title: 'Tensor ring decomposition with rank minimization on latent space: An efficient approach for tensor completion'
+  authors: L. Yuan, C. Li, M. Danilo, J. Cao, Q. Zhao.
+  venue: AAAI Conference on Artificial Intelligence (AAAI), 2019
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1809.02288
+    - type: website
+      display: Website
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/4949
+    - type: code
+      display: Code
+      url: https://github.com/yuanlonghao/TRLRF
+  bibtex: '@inproceedings{yuan2019tensor,
+  title={Tensor ring decomposition with rank minimization on latent space: An efficient approach for tensor completion},
+  author={Yuan, Longhao and Li, Chao and Mandic, Danilo and Cao, Jianting and Zhao, Qibin},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={33},
+  number={01},
+  pages={9151--9158},
+  year={2019}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2019
+  type: journal
+  title: 'Remote sensing image reconstruction using tensor ring completion and total variation'
+  authors: W. He, N. Yokoya, L. Yuan, Q. Zhao.
+  venue: IEEE Transactions on Geoscience and Remote Sensing
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/abstract/document/8770268
+  bibtex: '@article{he2019remote,
+  title={Remote sensing image reconstruction using tensor ring completion and total variation},
+  author={He, Wei and Yokoya, Naoto and Yuan, Longhao and Zhao, Qibin},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={57},
+  number={11},
+  pages={8998--9009},
+  year={2019},
+  publisher={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2018
+  type: conference
+  title: 'Tensorizing generative adversarial nets'
+  authors: X. Cao, X. Zhao, Q. Zhao.
+  venue: International Conference On Consumer Electronics (ICCE), 2018
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/abstract/document/8552122
+    - type: code
+      display: Code
+      url: https://github.com/xwcao/TGAN
+  bibtex: '@inproceedings{cao2018tensorizing,
+  title={Tensorizing generative adversarial nets},
+  author={Cao, Xingwei and Zhao, Xuyang and Zhao, Qibin},
+  booktitle={2018 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)},
+  pages={206--212},
+  year={2018},
+  organization={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2018
+  type: conference
+  title: 'Generative adversarial positive-unlabeled learning'
+  authors: M. Hou, B. Chaib-draa, C. Li, Q. Zhao.
+  venue: The International Joint Conference on Artificial Intelligence (IJCAI), 2018
+  picture: 
+  links:
+    - type: pdf
+      display: PDF
+      url: https://www.ijcai.org/proceedings/2018/0312.pdf
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1711.08054
+    - type: slide
+      display: Slide
+      url: /assets/publications/IJCAI_2018_HouMing/IJCAI_18.pdf
+    - type: code
+      display: Code
+      url: /assets/publications/IJCAI_2018_HouMing/gen_pu_demo.zip
+  bibtex: '@article{hou2017generative,
+  title={Generative adversarial positive-unlabelled learning},
+  author={Hou, Ming and Chaib-Draa, Brahim and Li, Chao and Zhao, Qibin},
+  journal={arXiv preprint arXiv:1711.08054},
+  year={2017}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2018
+  type: conference
+  title: 'AI neurotechnology for aging societies–task-load and dementia EEG digital biomarker development using information geometry machine learning methods'
+  authors: T. M. Rutkowski, Q. Zhao, M. S. Abe, M. Otake.
+  venue: NeurIPS Workshop, 2018
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1811.12642
+  bibtex: '@article{rutkowski2018ai,
+  title={AI Neurotechnology for Aging Societies--Task-load and Dementia EEG Digital Biomarker Development Using Information Geometry Machine Learning Methods},
+  author={Rutkowski, Tomasz M and Zhao, Qibin and Abe, Masao S and Otake, Mihoko},
+  journal={arXiv preprint arXiv:1811.12642},
+  year={2018}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2018
+  type: conference
+  title: 'High-order tensor completion for data recovery via sparse tensor-train optimization'
+  authors: L. Yuan, Q. Zhao, J. Cao.
+  venue: The International Conference on Acoustics, Speech, & Signal Processing (ICASSP), 2018
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1711.02271
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/8462592
+  bibtex: '@inproceedings{yuan2018high,
+  title={High-order tensor completion for data recovery via sparse tensor-train optimization},
+  author={Yuan, Longhao and Zhao, Qibin and Cao, Jianting},
+  booktitle={2018 IEEE international conference on acoustics, speech and signal processing (ICASSP)},
+  pages={1258--1262},
+  year={2018},
+  organization={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2018
+  type: conference
+  title: 'Detection of epileptic foci based on interictal iEEG by using convolutional neural network'
+  authors: X. Zhao, Q. Zhao, T. Tanaka, J. Cao, W. Kong, H. Sugano, N. Yoshida.
+  venue: International Conference on Digital Signal Processing (DSP), 2018
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/8631885
+  bibtex: '@inproceedings{zhao2018detection,
+  title={Detection of epileptic foci based on interictal iEEG by using convolutional neural network},
+  author={Zhao, Xuyang and Zhao, Qibin and Tanaka, Toshihisa and Cao, Jianting and Kong, Wanzeng and Sugano, Hidenori and Yoshida, Noboru},
+  booktitle={2018 IEEE 23rd International Conference on Digital Signal Processing (DSP)},
+  pages={1--5},
+  year={2018},
+  organization={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2018
+  type: journal
+  title: 'Feature extraction for incomplete data via low-rank tensor decomposition with feature regularization'
+  authors: Q. Shi, Y. Cheung, Q. Zhao, H. Lu.
+  venue: IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://ieeexplore.ieee.org/document/8513841
+  bibtex: '@article{shi2018feature,
+  title={Feature extraction for incomplete data via low-rank tensor decomposition with feature regularization},
+  author={Shi, Qiquan and Cheung, Yiu-Ming and Zhao, Qibin and Lu, Haiping},
+  journal={IEEE transactions on neural networks and learning systems},
+  volume={30},
+  number={6},
+  pages={1803--1817},
+  year={2018},
+  publisher={IEEE}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2018
+  type: journal
+  title: 'High-order tensor completion via gradient-based optimization under tensor train format'
+  authors: L. Yuan, Q. Zhao, L. Gui, J. Cao.
+  venue: 'Signal Processing: Image Communication'
+  picture: 
+  links:
+    - type: pdf
+      display: PDF
+      url: https://pdf.sciencedirectassets.com/271519/1-s2.0-S0923596519X00028/1-s2.0-S0923596518311081/am.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEL7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIHdMEujSGsdT66kTSh%2FyJj0YEZVFV02OIP9JU7G2emQaAiAbs0JJ8hQ%2Fm4QJak0OAYnXZKw7Zny4lFas2cfP5476ESqzBQhXEAUaDDA1OTAwMzU0Njg2NSIM7ig%2BQiC45gUr2ktRKpAFpFtTJRZORBtvtTgIFLw78F7kobrp2uOx7drQ9bpXXmBaAmTK610KgWxlPjUWm0dJaS7Kx4ttmy1HaCXPt5MaJDGgQzVKuC9fWcIe2T6iURjoVI9brdGGOMZJJvtKUKr23NkCmG%2B359xv%2Fub%2B8CloUBBOpyUpSkqw14axW46rntpnlqPxzX8w7QedhllQx084C9V203P7ineKDTISLjQERhnr1yU5pnHBPa3rFss9vPiLUCyN8NG93460nsG8Wb8MqXGIRZJkaPGwvgEOqFQT7G8I68WH%2FCGsjKsZeuJQ2lyaiHiUTRoIbbaQ2wz7Q%2BDWbiZ9MgBqF64v31ZUuIVzmmkpox35ZAl3sVBoRa7ulgzSoJWLPNOYDK2v6vmuKtHXDniiYBcu6fqRfQCj1%2FLtB9dfPy75XW61gjGazcXVA6IYxkYCB5IRgvpyr3AHJ8j2Suq4JXiJjTJTy4wBw8B4RjWLGelGB%2Bu65fNFGUfLol3NWdd6TxmJxDxWau3Z6TfOnn6G9PZozdu9Tl9KFvV5h8w%2B4TSKdZvGxm73baHPlO1XrRyGEbNbvho59UpoTLgYGRFhNAp%2FXHVIJ%2BapdDbTKK5sAUaKqEoAyGuQFEuYuNnhrSFviZN84Zs4Vn2I4%2F1bmJT8Py31ZUQxxZ%2Bb3jMTFjoo1%2BioQJUOt%2FQWqSSguxpFA3mNgfrOIcdmQ%2BFlqc1045QoD8RUxgnjaQWei0Z5FoWuLM1zy4Pu6h2NIynk5QH5W%2BjWYEFkWG3LsmJiqUUXf9uwf2NrYPGBVK%2BOXSqJNPcp3xGD8wGg%2Fx0JFdn28lfIMzDNkqMRWpB49ZsGJBggpi%2BkVzSfs6nnYHF7O3ISUS0WpQ0xTu%2B9oCrJ9U8L%2FBEwhY%2BIpgY6sgHX7K1xlnsVr%2FoRdw%2B3OXX6GpOeBjeIvdPIWa5M3vkmebZnD%2Ff%2Fqc1V28OQcFUp0YBpdIBMJYLRPFPD%2B5oQaTowwFJqrmYB0JJMs0c32vsrQoFdrov5uUwRkjdzV%2Bgcesoj1MWXlbQy27Jd0dHZfhbzsTyOoS%2BzCxWdvcKbrea5dsTeQK7%2FNJcGhwE2L7H02OSerwAtmixhJnPD%2BFcLxTnf6Nr1DswMY%2B8v88aQqv0%2F7W%2Bv&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230727T063645Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY3BJNJJP4%2F20230727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4d04856d923846d82756c9fc7dc38695c21edf5758f4d809b17125afbb378044&hash=2e3e72fa8f4755cc8adcace6f79cfd5dad2d634519986d9b01abd2bc6ade89d1&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0923596518311081&tid=pdf-85aa97d7-edd6-41f9-90d8-2c0d8aea3204&sid=3c7456b9507995497f0bafb0cb674344b9c1gxrqa&type=client
+    - type: website
+      display: Website
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0923596518311081?via%3Dihub
+  bibtex: '@article{yuan2019high,
+  title={High-order tensor completion via gradient-based optimization under tensor train format},
+  author={Yuan, Longhao and Zhao, Qibin and Gui, Lihua and Cao, Jianting},
+  journal={Signal Processing: Image Communication},
+  volume={73},
+  pages={53--61},
+  year={2019},
+  publisher={Elsevier}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2017
+  type: conference
+  title: 'Feature extraction for incomplete data via low-rank Tucker decomposition'
+  authors: Q. Shi, Y. Cheung, and Q. Zhao.
+  venue: 'Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD), 2017'
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://link.springer.com/chapter/10.1007/978-3-319-71249-9_34
+  bibtex: '@inproceedings{shi2017feature,
+  title={Feature extraction for incomplete data via low-rank tucker decomposition},
+  author={Shi, Qiquan and Cheung, Yiu-ming and Zhao, Qibin},
+  booktitle={Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2017, Skopje, Macedonia, September 18--22, 2017, Proceedings, Part I 10},
+  pages={564--581},
+  year={2017},
+  organization={Springer}
+}'
+
+# ----------------------------------------------------------------------------
+- year: 2016
+  type: journal
+  title: 'Tensor Ring Decomposition'
+  authors: Q. Zhao, G. Zhou, S. Xie, L. Zhang, A. Cichocki.
+  venue: 
+  picture: 
+  links:
+    - type: arxiv
+      display: arXiv
+      url: https://arxiv.org/abs/1606.05535
+  bibtex: '@article{zhao2016tensor,
+  title={Tensor ring decomposition},
+  author={Zhao, Qibin and Zhou, Guoxu and Xie, Shengli and Zhang, Liqing and Cichocki, Andrzej},
+  journal={arXiv preprint arXiv:1606.05535},
+  year={2016}
+}'
+
+# ----------------------------------------------------------------------------
+- year: book
+  title: 'Tensor networks for dimensionality reduction and large-scale optimization: Part 2 applications and future perspectives'
+  authors: A. Cichocki, A. Phan, Q. Zhao, N. Lee, I. Oseledets, M. Sugiyama, D. P. Mandic et al.
+  venue: Foundations and Trends in Machine Learning
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://www.nowpublishers.com/article/Details/MAL-067
+  bibtex: '@article{cichocki2017tensor,
+  title={Tensor networks for dimensionality reduction and large-scale optimization: Part 2 applications and future perspectives},
+  author={Cichocki, Andrzej and Phan, Anh-Huy and Zhao, Qibin and Lee, Namgil and Oseledets, Ivan and Sugiyama, Masashi and Mandic, Danilo P and others},
+  journal={Foundations and Trends{\textregistered} in Machine Learning},
+  volume={9},
+  number={6},
+  pages={431--673},
+  year={2017},
+  publisher={Now Publishers, Inc.}
+}'
+
+# ----------------------------------------------------------------------------
+- year: book
+  title: 'Tensor networks for dimensionality reduction and large-scale optimization: Part 1 low-rank tensor decompositions'
+  authors: A. Cichocki, N. Lee, I. Oseledets, A. Phan, Q. Zhao, D. P. Mandic et al.
+  venue: Foundations and Trends in Machine Learning
+  picture: 
+  links:
+    - type: website
+      display: Website
+      url: https://www.nowpublishers.com/article/Details/MAL-059
+  bibtex: '@article{cichocki2016tensor,
+  title={Tensor networks for dimensionality reduction and large-scale optimization: Part 1 low-rank tensor decompositions},
+  author={Cichocki, Andrzej and Lee, Namgil and Oseledets, Ivan and Phan, Anh-Huy and Zhao, Qibin and Mandic, Danilo P and others},
+  journal={Foundations and Trends{\textregistered} in Machine Learning},
+  volume={9},
+  number={4-5},
+  pages={249--429},
+  year={2016},
+  publisher={Now Publishers, Inc.}
+}'
+
