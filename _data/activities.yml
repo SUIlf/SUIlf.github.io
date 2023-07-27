@@ -1,6 +1,6 @@
 # sub: 空白 无子标题， 1 有子标题
 # ----------------------------------------------------------------------------------------------------------
-- date: '2021/01:'
+- date: '2021/01'
   title: 'International Workshop on Tensor Network Representations in Machine Learning In conjunction with IJCAI-2020.'
   url: https://tensorworkshop.github.io/2020/
   pdf_url: 
@@ -11,7 +11,7 @@
       pdf_url: 
 
 # ----------------------------------------------------------------------------------------------------------
-- date: '2020/12:'
+- date: '2020/12'
   title: 'First Workshop on Quantum Tensor Networks in Machine Learning In conjunction with NeurIPS 2020.'
   url: https://tensorworkshop.github.io/NeurIPS2020/
   pdf_url: 
@@ -22,7 +22,7 @@
       pdf_url: 
 
 # ----------------------------------------------------------------------------------------------------------
-- date: '2020/11:'
+- date: '2020/11'
   title: 'ACML 2020 Tutorial'
   url: https://qibinzhao.github.io/ACML2020_Tutorial/
   pdf_url: 
@@ -34,7 +34,7 @@
       pdf_url: /pdfs/publications/myers2023active.pdf
 
 # ----------------------------------------------------------------------------------------------------------
-- date: '2020/11:'
+- date: '2020/11'
   title: '[1st AIP Open Seminar] Talks by Tensor Learning Team.'
   url: https://aip.riken.jp/events/event_112436/
   pdf_url: 

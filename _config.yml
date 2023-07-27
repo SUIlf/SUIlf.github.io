@@ -29,6 +29,9 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
 
 # Site Settings
 locale                   : "en-US"
@@ -85,7 +88,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : Tensor Learn Team
+  username               : Tensor Learning Team
 facebook:
   username               :
   app_id                 :
