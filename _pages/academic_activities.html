@@ -77,12 +77,15 @@ li {
 
     <br><br>
     <div class="news-a">
-      {% for activity in site.data.activities %}
+      {% assign sorted = site.academic_activities | reverse %}
+      {% for activity in sorted %}
       <section class="news-p">
+        {% if activity.title != 'Lectures at The University of Tokyo' %}
         <span class="news-date"><b>{{ activity.date | date: "%b %Y" }}</b></span><br>
+        {% endif %}
 
-        {% if activity.url.size > 0 %}
-        <a href="{{ activity.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
+        {% if activity.url_.size > 0 %}
+        <a href="{{ activity.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;Website</button></a>
         {% endif %}
 
         {% if activity.pdf_url.size > 0 %}
@@ -107,7 +110,7 @@ li {
         {% endif %}
       </section>
       <br>
-      <hr>
+      <br>
       {% endfor %}
     </div> 
 </div>

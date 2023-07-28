@@ -17,19 +17,22 @@ collections:
   software:
     output: true
     permalink: /:collection/:path/
-  boostsrlwiki:
-    output: true
-    permalink: /software/boostsrl/:collection/:path/
-  datasets:
-    output: true
-    permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
   news:
     output: true
     permalink: /:collection/:path/
   publications:
+    output: true
+    permalink: /:collection/:path/
+  academic_activities:
+    output: true
+    permalink: /:collection/:path/
+  open_positions:
+    output: true
+    permalink: /:collection/:path/
+  member:
+    output: true
+    permalink: /:collection/:path/
+  gallery:
     output: true
     permalink: /:collection/:path/
 

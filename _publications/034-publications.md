@@ -130,7 +130,7 @@ li {
 </style>
 
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
-  <h1 style="text-transform: capitalize" class="entry-headers"> News </h1>
+  <h1 style="text-transform: capitalize" class="entry-headers"> Publication </h1>
   <br>
   <tr class="paper-font" style="height:120px;">
     <td>

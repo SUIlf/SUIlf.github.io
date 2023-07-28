@@ -22,11 +22,6 @@ permalink: /members/
   text-transform: none;
 }
 
-.page__content h2 {
-    margin-top: 1em;
-    padding-bottom: 0.5em;
-/*    border-bottom: 1px solid #fff;*/
-}
 
 h4 {
     font-size: 18px;
@@ -79,7 +74,7 @@ a {
 
 </style>
 
-
+<div>
 <div id="gridid" style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
   <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1>
 
@@ -211,6 +206,7 @@ a {
     </div>
     {% endfor %}
   </div>
+</div>
 </div>
 
 

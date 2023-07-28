@@ -57,7 +57,8 @@ li {
 
   <h2> 2021 </h2>
   <table class="publications">
-    {% for paper in site.data.software %}
+    {% assign sorted = site.software | reverse %}
+    {% for paper in sorted %}
     {% if paper.year == 2021 %}
     <tr class="paper-font">
       <td>
@@ -79,7 +80,8 @@ li {
 
   <h2> 2020 </h2>
   <table class="publications">
-    {% for paper in site.data.software %}
+    {% assign sorted = site.software | reverse %}
+    {% for paper in sorted %}
     {% if paper.year == 2020 %}
     <tr class="paper-font">
       <td>
@@ -102,7 +104,8 @@ li {
 
   <h2> 2019 </h2>
   <table class="publications">
-    {% for paper in site.data.software %}
+    {% assign sorted = site.software | reverse %}
+    {% for paper in sorted %}
     {% if paper.year == 2019 %}
     <tr class="paper-font">
       <td>
@@ -124,7 +127,8 @@ li {
   </table>
   <h2> 2018 </h2>
   <table class="publications">
-    {% for paper in site.data.software %}
+    {% assign sorted = site.software | reverse %}
+    {% for paper in sorted %}
     {% if paper.year == 2018 %}
     <tr class="paper-font">
       <td>
@@ -147,7 +151,8 @@ li {
 
   <h2> other </h2>
   <table class="publications">
-    {% for paper in site.data.software %}
+    {% assign sorted = site.software | reverse %}
+    {% for paper in sorted %}
     {% if paper.year == 'other' %}
     <tr class="paper-font">
       <td>

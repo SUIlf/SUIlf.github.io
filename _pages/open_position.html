@@ -77,11 +77,12 @@ li {
 
     <h2>  </h2>
     <div class="news-a">
-      {% for opsition in site.data.opsitions %}
+      {% assign sorted = site.open_positions %}
+      {% for opsition in sorted %}
       <section class="news-p">
         <i style="font-size: 12px;" class="fa fa-star" aria-hidden="true"></i>&nbsp;<b>{{ opsition.title }}</b>&nbsp;
 
-        <a href="{{ opsition.url | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;For detail</button></a>
+        <a href="{{ opsition.url_ | default: '#' }}"><button class="paper-btn"><i style="font-style:normal" class="fa fa-link"></i>&nbsp;For detail</button></a>
 
         {% if opsition.description.size > 0 %}
         <p>&emsp;{{ opsition.description }}</p>
