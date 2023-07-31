@@ -7,7 +7,7 @@ title: 'BRTF: Bayesian Robust Tensor Factorization'
 links:
   - type: github
     display: Github
-    url: /pdfs/publications/myers2023active.pdf
+    url: https://github.com/qbzhao/BRTF
     icon: github
 ---
 

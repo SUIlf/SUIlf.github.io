@@ -5,10 +5,10 @@ permalink: /software/014-software/
 year: 2021
 title: 'Fully-Connected Tensor Network Decomposition and Its Application to Higher-Order Tensor Completion (AAAI 2021)'
 links:
-  - type: file
-    display: Code
-    url: /pdfs/publications/
-    icon: bibtex
+  - type: github
+    display: Github
+    url: https://yubangzheng.github.io/codes/code_FCTN_Decomposition.zip
+    icon: github
 ---
 
 

@@ -7,7 +7,7 @@ title: 'Robust tensor decomposition via orientation invariant tubal nuclear norm
 links:
   - type: file
     display: Code
-    url: /pdfs/publications/myers2023active.pdf
+    url: /assets/publications/OITNN_WangAndong/Code4OITNN_v0.1.zip
     icon: bibtex
 ---
 

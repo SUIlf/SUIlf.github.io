@@ -7,7 +7,7 @@ title: 'Tensor Ring Decomposotion Toolbox (Matlab)'
 links:
   - type: file
     display: Code
-    url: /pdfs/publications/myers2023active.pdf
+    url: /assets/softwares/TR_Toolbox.zip
     icon: bibtex
 ---
 

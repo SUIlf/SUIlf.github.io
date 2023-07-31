@@ -16,7 +16,7 @@ links:
     display: Website
     url: https://ojs.aaai.org/index.php/AAAI/article/view/5890
   - type: slide
-    display: Slide
+    display: Poster
     url: /assets/publications/AAAI2020_LiChao/AAAI_2020_LiChao_poster.pdf
   - type: code
     display: Code

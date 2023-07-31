@@ -13,11 +13,11 @@ links:
     display: arXiv
     url: https://arxiv.org/abs/1907.01011
   - type: slide
-    display: Slide
+    display: Poster
     url: http://www.cs.cmu.edu/~pliang/posters/acl2019_tensor_poster.pdf
   - type: website
     display: Website
-    url: https://openaccess.thecvf.com/content_ICCV_2019/html/Yokota_Dynamic_PET_Image_Reconstruction_Using_Nonnegative_Matrix_Factorization_Incorporated_With_ICCV_2019_paper.html
+    url: https://aclanthology.org/P19-1152/
 bibtex: '@article{liang2019learning,
 title={Learning representations from imperfect time series data via tensor rank regularization},
 author={Liang, Paul Pu and Liu, Zhun and Tsai, Yao-Hung Hubert and Zhao, Qibin and Salakhutdinov, Ruslan and Morency, Louis-Philippe},

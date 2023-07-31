@@ -11,7 +11,7 @@ picture:
 links:
   - type: website
     display: Website
-    url: https://ieeexplore.ieee.org/document/8682696
+    url: https://ieeexplore.ieee.org/abstract/document/8682696
   - type: slide
     display: Poster
     url: /assets/publications/ICASSP_2019_HeWei/ICASSP_Wei_poster.pdf

@@ -7,7 +7,7 @@ title: 'Gan PU: Generative Adversarial Positive-Unlabeled Learning'
 links:
   - type: file
     display: Code
-    url: /pdfs/publications/myers2023active.pdf
+    url: /assets/softwares/gen_pu_demo.zip
     icon: bibtex
 ---
 

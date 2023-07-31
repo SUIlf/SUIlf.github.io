@@ -7,7 +7,7 @@ title: 'Deep multimodal multilinear fusion with high-order polynomial pooling (N
 links:
   - type: file
     display: Code
-    url: /pdfs/publications/myers2023active.pdf
+    url: /assets/publications/NeurIPS_2019_HouMing/HPFN.zip
     icon: bibtex
 ---
 

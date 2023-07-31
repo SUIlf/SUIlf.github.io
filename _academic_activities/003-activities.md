@@ -11,10 +11,10 @@ type:
 links:
   - sub_title: 'Lecture 1: Tensor Factorization and Tensor Networks for Machine Learning.'
     url: 
-    pdf_url: /pdfs/publications/myers2023active.pdf
+    pdf_url: /assets/academic_activities/2021_TN4ML.pdf
   - sub_title: 'Lecture 2: Interpretable and Adversarial Machine Learning.'
     url: 
-    pdf_url: /pdfs/publications/myers2023active.pdf
+    pdf_url: /assets/academic_activities/2021_TrustworthyML.pdf
 ---
 
 

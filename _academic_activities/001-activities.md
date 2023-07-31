@@ -11,13 +11,13 @@ type:
 links:
   - sub_title: 'Lecture 1: Multilinear Algebra and Tensor Decompositions.'
     url: 
-    pdf_url: /pdfs/publications/myers2023active.pdf
+    pdf_url: /assets/academic_activities/Lesson 1 Multilinear Algebra and Tensor Decompositions.pdf
   - sub_title: 'Lecture 2: Tensor Networks.'
     url: 
-    pdf_url: /pdfs/publications/myers2023active.pdf
+    pdf_url: /assets/academic_activities/Lesson 2 tensor networks.pdf
   - sub_title: 'Lecture 3: Tensor Methods for Signal Processing and Machine Learning.'
     url: 
-    pdf_url: /pdfs/publications/myers2023active.pdf
+    pdf_url: /assets/academic_activities/Lesson 3 Tensor Methods for Signal Processing and Machine Learning.pdf
 ---
 
 

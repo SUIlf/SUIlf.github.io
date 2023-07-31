@@ -9,12 +9,15 @@ authors: T. Li, G. Zhou, Y. Qiu, and Q. Zhao.
 venue: Journal of Machine Learning Research (JMLR)
 picture: 
 links:
+  - type: pdf
+    display: PDF
+    url: https://www.jmlr.org/papers/volume23/21-1259/21-1259.pdf
   - type: arxiv
     display: arXiv
     url: https://arxiv.org/abs/2110.09902
   - type: website
     display: Website
-    url: https://ieeexplore.ieee.org/document/9208755
+    url: https://jmlr.org/papers/v23/21-1259.html
 bibtex: '@article{li2022toward,
 title={Toward understanding convolutional neural networks from volterra convolution perspective},
 author={Li, Tenghui and Zhou, Guoxu and Qiu, Yuning and Zhao, Qibin},

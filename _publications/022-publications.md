@@ -16,7 +16,7 @@ links:
     display: Website
     url: https://proceedings.neurips.cc/paper_files/paper/2019/hash/f56d8183992b6c54c92c16a8519a6e2b-Abstract.html
   - type: slide
-    display: Slide
+    display: Poster
     url: /assets/publications/NeurIPS_2019_HouMing/Deep_Multimoda_Multilinear_Fusion_with_High_order_Polynomial_Pooling.pdf
   - type: code
     display: Code

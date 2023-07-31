@@ -7,7 +7,7 @@ title: 'TPFN: Applying Outer Product along Time to Multimodal Sentiment Analysis
 links:
   - type: file
     display: Code
-    url: /pdfs/publications/myers2023active.pdf
+    url: /assets/publications/ECCV2020_LiChao/TPFN.zip
     icon: bibtex
 ---
 

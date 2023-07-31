@@ -11,7 +11,7 @@ type:
 links:
   - sub_title: 'Tensor Networks in Machine Learning: Recent Advances and Frontiers.'
     url: 
-    pdf_url: /pdfs/publications/myers2023active.pdf
+    pdf_url: /ACML2020_Tutorial/TNML-ACML2020Tutorial-QibinZhao.pdf
 ---
 
 

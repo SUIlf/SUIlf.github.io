@@ -5,7 +5,7 @@ permalink: /academic_activities/002-activities/
 date: 2019-05-01
 title: 'Tensor Network Representation for Machine Learning - Recent Advances and Perspectives.'
 url_: 
-pdf_url: /pdfs/publications/myers2023active.pdf
+pdf_url: /assets/academic_activities/2019AIPsymposium.pdf
 sub: 0
 type: 
 links:

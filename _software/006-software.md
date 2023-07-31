@@ -7,7 +7,7 @@ title: 'Generative adversarial positive-unlabeled learning (IJCAI 2018)'
 links:
   - type: file
     display: Code
-    url: /pdfs/publications/
+    url: /assets/publications/IJCAI_2018_HouMing/gen_pu_demo.zip
     icon: bibtex
 ---
 

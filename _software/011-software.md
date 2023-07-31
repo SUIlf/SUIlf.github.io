@@ -7,7 +7,7 @@ title: 'Beyond unfolding: Exact recovery of latent convex tensor decomposition u
 links:
   - type: file
     display: Code
-    url: /pdfs/publications/myers2023active.pdf
+    url: /assets/publications/AAAI2020_LiChao/AAAI_2020_LiChao_code.zip
     icon: bibtex
 ---
 
