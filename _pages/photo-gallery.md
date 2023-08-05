@@ -4,34 +4,11 @@ permalink: /gallery/
 title: "Photo gallery"
 author_profile: false
 gallery:
-  - url: /assets/images/gallery/harsha_defense_1.png
-    image_path: /assets/images/gallery/harsha_defense_1.png
-    alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
-    title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
-  - url: /assets/images/gallery/harsha_defense_2.png
-    image_path: /assets/images/gallery/harsha_defense_2.png
-    alt: "Harsha Kokel with her defense committee after her successful PhD defense."
-    title: "Harsha Kokel with her defense committee after her successful PhD defense."
-  - url: /assets/images/gallery/SN_bday_2022_7.png
-    image_path: /assets/images/gallery/SN_bday_2022_7.png
-    alt: "Celebrating Professor Natarajan's birthday!"
-    title: "Celebrating Professor Natarajan's birthday!"
-  - url: /assets/images/gallery/SN_bday_2022_6.png
-    image_path: /assets/images/gallery/SN_bday_2022_6.png
-    alt: "Celebrating Professor Natarajan's birthday!"
-    title: "Celebrating Professor Natarajan's birthday!"
-  - url: /assets/images/gallery/SN_bday_2022_4.png
-    image_path: /assets/images/gallery/SN_bday_2022_4.png
-    alt: "Birthday cake!"
-    title: "Birthday cake!"
-  - url: /assets/images/gallery/SN_bday_2022_3.png
-    image_path: /assets/images/gallery/SN_bday_2022_3.png
-    alt: "Celebrating Professor Natarajan's birthday!"
-    title: "Celebrating Professor Natarajan's birthday!"
-  - url: /assets/images/gallery/SN_bday_2022_1.png
-    image_path: /assets/images/gallery/SN_bday_2022_1.png
-    alt: "Celebrating Professor Natarajan's birthday!"
-    title: "Celebrating Professor Natarajan's birthday!"
+  # - url: /assets/images/gallery/harsha_defense_1.png
+  #   image_path: /assets/images/gallery/harsha_defense_1.png
+  #   alt: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
+  #   title: "Congratulations Dr. Harsha Kokel on successful PhD defense!"
+
 ---
 
 <link rel="stylesheet" href="/assets/css/bootstrap.css">
@@ -68,6 +45,8 @@ gallery:
 
 <div style="padding-bottom: 20rem;" class="container-home page__other__hero--overlay">
 <h1 style="text-transform: capitalize" class="entry-headers"> {{page.title}} </h1>
+
+<h5>TBD</h5>
 
 {% include gallery id="gallery" class="gallery-thumbnail"  %}
 
