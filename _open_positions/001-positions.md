@@ -4,6 +4,8 @@ $paragraph-indent: true
 permalink: /open_positions/001-positions/
 title: Research Scientist or Postdoctoral Researcher, 1 position
 url_: https://www.riken.jp/en/careers/researchers/20230206_7/index.html
+is_open: 1
+is_riken: 1
 description: 'The candidate is expected to conduct research on the development 
 of machine learning theory and algorithms. Specifically, several research 
 themes can be investigated, such as adversarial machine learning, tensor 
@@ -114,7 +116,7 @@ li {
           <!-- end custom footer snippets -->
             <div class="page__footer-follow">
               <ul class="social-icons">
-                <li><strong>Contact Info:</strong><br>Email: qibin.zhao [at] riken.jp &nbsp;*Please replace "[at]" with "@"<br>Tel: +81-(0)3-6225-2539<br><strong>Follow:</strong>&nbsp;<a href="https://github.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+                <li><strong>Contact Info:</strong><br>Email: qibin.zhao [at] riken.jp &nbsp;*Please replace "[at]" with "@"<br>Tel: +81-(0)3-6225-2539<br><strong>Follow:</strong>&nbsp;<a href="https://github.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/rikenaiptlt" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
               </ul>
             </div>
           </div>

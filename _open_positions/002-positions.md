@@ -2,9 +2,11 @@
 layout: splash
 $paragraph-indent: true
 permalink: /open_positions/002-positions/
-title: Special Postdoctoral Researcher (SPDR)
-url_: https://www.riken.jp/en/careers/programs/spdr/career2024/
-description: ''
+title: Postdoctoral Researcher, Research Scientist and Senior Research Scientist (W23143)
+url_: https://www.riken.jp/en/careers/researchers/20230921_1/index.html
+is_open: 0
+is_riken: 1
+description: '<a href="https://www.riken.jp/en/research/labs/" target="_blank">RIKEN has established the "Transformative Research Innovation Platform of RIKEN Platforms (TRIP)</a>. As one of the foundations of TRIP, the <a href="https://rq.riken.jp/en/research/" target="_blank">RIKEN Consortium for Quantum Computational Science (RIKEN Quantum)</a>, a RIKEN cross-disciplinary framework for bringing innovation to physics, chemistry, and life sciences based on quantum computational science, has been established with the RIKEN <a href="https://ithems.riken.jp/en" target="_blank">iTHEMSThe</a> en as its hub. This call is open to researchers in any field who wish to participate in RIKEN Quantum.'
 ---
 
 
@@ -109,7 +111,7 @@ li {
           <!-- end custom footer snippets -->
             <div class="page__footer-follow">
               <ul class="social-icons">
-                <li><strong>Contact Info:</strong><br>Email: qibin.zhao [at] riken.jp &nbsp;*Please replace "[at]" with "@"<br>Tel: +81-(0)3-6225-2539<br><strong>Follow:</strong>&nbsp;<a href="https://github.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+                <li><strong>Contact Info:</strong><br>Email: qibin.zhao [at] riken.jp &nbsp;*Please replace "[at]" with "@"<br>Tel: +81-(0)3-6225-2539<br><strong>Follow:</strong>&nbsp;<a href="https://github.com/" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-github-square" aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/rikenaiptlt" rel="nofollow noopener noreferrer"><i style="font-style:normal" class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
               </ul>
             </div>
           </div>

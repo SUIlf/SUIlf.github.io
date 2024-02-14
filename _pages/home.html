@@ -88,6 +88,15 @@ a {
     font-style: italic;
 }
 
+.paper-btnYT {
+    background-color: #bf0004;;
+    border: none;
+    color: white;
+    padding: 1px 1px;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
 
 </style>
 
@@ -165,10 +174,10 @@ a {
 
 
           <div class="highlights">
-            <div class="slick-slide">
-              <img style="border:solid 1px #fff; margin:0 auto;" src="assets/images/TrustedAI.jpg">
+            <!-- <div class="slick-slide">
+              <img style="border:solid 1px #fff; margin:0 auto;" src="assets/images/TrustedAI.jpg"> -->
             <!-- <a href="">Tensor Networks and Machine Learning</a> -->
-            </div>
+            <!-- </div> -->
 
             <!-- <div class="slick-slide">
               <iframe width="560" height="315" src="https://www.youtube.com/watch?v=VmzCmjzdhsM&t=202s&ab_channel=TensorWorkshop" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -207,7 +216,10 @@ a {
 
 
         <div class="col-sm-4 clearfix" style="margin-top: 20px;">
+
           <div class="well news-a">
+            <h4>Our Videos on <a href="https://www.youtube.com/@aipriken8732/search?query=Tensor%20Learning%20Team"><button class="paper-btnYT"><i class="fa fa-link"></i> YouTube AIP RIKEN</button></a></h4>
+            <br>
             <h4>News</h4>
             {% assign sortednews = site.news | reverse %}
             <section class="news-p">
@@ -216,6 +228,9 @@ a {
               {% endfor %}
             </section>
             <p>For previous news, see the <a href="/news-list/">News List</a></p>
+
+            <br>
+            <h4>Our Videos on <a href="https://www.youtube.com/@aipriken8732/search?query=Tensor%20Learning%20Team"><button class="paper-btnYT"><i class="fa fa-link"></i> YouTube AIP RIKEN</button></a></h4>
           </div>
         </div>
       </div>

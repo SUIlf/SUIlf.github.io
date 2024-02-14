@@ -6,7 +6,7 @@ year: 2016
 type: journal
 title: 'Tensor Ring Decomposition'
 authors: Q. Zhao, G. Zhou, S. Xie, L. Zhang, A. Cichocki.
-venue: 
+venue: arXiv preprint arXiv:1606.05535, 2016
 picture: 
 links:
   - type: arxiv
