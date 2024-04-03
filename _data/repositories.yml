@@ -1,13 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - sam-bieberich
 
 github_repos:
-  - george-gca/multi-language-al-folio
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - sam-bieberich/HPC-QC-Workflows
+  - Quant-AM/QuantAM

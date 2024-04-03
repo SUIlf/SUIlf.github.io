@@ -1,0 +1,93 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Samuel Bieberich
+    - name: Year
+      value: Junior (Undergraduate)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: BS in EE
+      institution: Texas A&M University
+      year: 2021-2025
+      description:
+        - 3.88 GPA
+        - Minoring in Mathematics and Physics
+        - title: Activities and Societies
+          contents:
+            - Craig and Galen Brown Engineering Honors Program
+            - Engineering Mentorship Council
+            - ACM
+            - IEEE
+            - QuantA&M
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Co-founder, President
+      institution: QuantA&M
+      year: 2022-
+      description:
+        - Co-Founder of QuantA&M, Texas A&M University's first student organization devoted to connecting students with the networking tools and resources in the diverse field of Quantum Computing.
+        - Organization's second president, arranging events and networking with speakers and sponsors, as well as currently coordinating the QuantA&M LinkedIn social media presence.
+    - title: Quantum Computing Research SULI Program Intern
+      institution: Oak Ridge National Laboratory
+      year: 2023-2023
+      description:
+        - Wrote report and designed a poster based on research into the field if Hybrid HPC-Quantum Machine Learning via PyTorch and Pennylane's Python libraries.
+    - title: Quantum Computing Research PCIP Program Intern
+      institution: Oak Ridge National Laboratory
+      year: 2022-2022
+      description:
+        - Researched the applications and techniques involved in the combination of HPCs (High-Performance Computers) and Quantum Computing.
+        - Worked with Qiskit, a quantum computing programming language by IBM, to design famous Quantum Algorithms, Grover's Search Algorithm and Shor's Factoring Algorithm.
+        - Gained experience with the Linux terminal, LaTeX, Jupyter Notebooks, Vim, and Parsl. Experience sending jobs to supercomputers, including Summit, the 4th most powerful computer in the world (June 2022 TOP500), and the Andes Linux Cluster.
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Analyzing Machine Learning Software on Classical and Quantum Computing Resources at Oak Ridge National Laboratory
+      year: 2023-
+      description: Performed as a member of the 2023 SULI summer cohort at ORNL.
+    - title: <a href="https://arxiv.org/abs/2310.03286">Workflows between HPC and Quantum Computers at Oak Ridge National Laboratory﻿</a>
+      year: 2022-
+      description: Performed as a member of the 2022 PCIP summer cohort at ORNL. Publication pending. 
+    - title: Differential Equations and the Origins of Chaos
+      year: 2022
+      description: 13-page report detailing the basics of ODEs and their relevance in the field of Chaos Theory.
+    - title: Analyzing and Preparing for the Inevitability of Online Learning
+      year: 2021
+      description: Full Technical Research Report detailing interviews and polls taken by online educators after the tumultuous 2020 and 2020 academic years, regarding possible solutions and remedial work to assist in the reintroduction of full-time learning once again, post-COVID.
+    - title: Combatting COVID - Creating a better mask
+      year: 2020-2021
+      description: Project Proposal as part of a study in a Year-long Engineering Design and Development Project at Lake Travis High School. Along with Peter Stephens, I worked through the engineering design process to research, design, build, and test a face mask optimized to prevent glasses from fogging. Part of the Project Lead the Way program.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items: 
+        - Differential Tuition Scholarship (Texas A&M ECEN Department)
+        - M.J. Pickett Memorial Scholarship (Texas A&M ECEN Department)
+        - Dean's Honor Award (Texas A&M University)
+    - year: 2022
+      items: 
+        - Dean's Honor Roll (Texas A&M University)
+    - year: 2021
+      items: 
+        - Texas A&M and Lake Travis Community Scholarship from Lake Travis A&M Association
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Quantum Computing
+    - title: Computer Arhitecture
+    - title: Analog Design
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Reading, Basketball, Writing, Gaming
+    - <u>Sports followed:</u> NBA Basketball, NCAA Basketball and Football, Major League Baseball
